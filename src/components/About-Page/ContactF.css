@@ -1,0 +1,167 @@
+/* === Contact Section === */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background: #111;
+  color: white;
+  gap: 2rem;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-left h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-left ul {
+  list-style: none;
+  padding-left: 0;
+  
+}
+
+.contact-left li {
+  margin-bottom: 0.5rem;
+}
+
+/* === Form Styling === */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-right h5 {
+  color: #ffae00;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.contact-right h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.animated-form .form-group {
+  margin-bottom: 1rem;
+  animation: fadeUpForm 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* .animated-form .form-group:nth-child(1) { animation-delay: 0.2s; }
+.animated-form .form-group:nth-child(2) { animation-delay: 0.4s; }
+.animated-form .form-group:nth-child(3) { animation-delay: 0.6s; }
+.animated-form .form-group:nth-child(4) { animation-delay: 0.8s; }
+.animated-form .form-group:nth-child(5) { animation-delay: 1.0s; }
+.animated-form .form-group:nth-child(6) { animation-delay: 1.2s; } */
+
+@keyframes fadeUpForm {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+/* === CAPTCHA Section === */
+.captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  color: #fff;
+  
+}
+
+.captcha-box input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #ffa500;
+}
+
+.captcha-box label {
+  font-size: 0.95rem;
+  user-select: none;
+}
+
+.captcha-img {
+  height: 34px;
+  object-fit: contain;
+}
+
+/* === Submit Button === */
+form button {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(to right, #ffa500, #ff4500);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(255, 165, 0, 0.4);
+}
+
+form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(255, 140, 0, 0.6);
+  background: linear-gradient(to right, #ffb700, #ff6700);
+}
+
+
+
+
+
+.branding-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Company Logo Styling */
+.company-logo {
+  width: 160px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+}
+
+.company-logo:hover {
+  transform: scale(1.05);
+}
+
+/* LinkedIn Icon Styling */
+.linkedin-icon {
+  width: 15px; /* smaller for neatness */
+  height: 15px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(1.2);
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.15);
+  filter: grayscale(0%) drop-shadow(0 0 6px #0077b5);
+}

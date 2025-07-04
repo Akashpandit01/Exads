@@ -1,0 +1,121 @@
+/* Hero Section */
+.contact-hero {
+  position: relative;
+  background-image: url("../../src/assets/contact.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.contact-content p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: center; /* Center the form */
+padding: 60px 20px;
+margin-right: 5px;
+ background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb);
+}
+
+.right-side {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px; /* add padding around the form tabs and container */
+  background:#6d6c6c;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-right: 5px;
+}
+
+
+
+
+
+/* Optional: on hover, slightly darker */
+
+
+/* Form Tabs */
+.form-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px; /* spacing between buttons */
+}
+
+.form-tabs button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #484545;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 8px;
+}
+
+.form-tabs button.active {
+  background:#07415d;
+  color: #fff;
+  font-weight: bold;
+}
+/* Container for each form tab */
+.form-container {
+  background: #6c6c6d;
+  padding: 30px;               /* Uniform padding */
+  border-radius: 12px;         /* Optional: rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* All inputs, selects, and textareas inside forms */
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 12px 15px;          /* Consistent inner padding */
+  margin-bottom: 15px;         /* Space between fields */
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Adjust textarea */
+.form-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Submit button */
+.form-container button[type="submit"],
+.form-container button[type="button"] {
+  padding: 12px 25px;
+  background-color: #37375a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.form-container button:hover {
+  background-color: #2e2e4d;
+}
+

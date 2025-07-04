@@ -1,0 +1,54 @@
+#first_of_Start {
+  /* Your existing styles... */
+  width: 100%;
+  max-width: 100vw;
+  background-image: url("../../assets/BackGround.jpg");
+  background-size: cover;
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 95vh;
+  flex-direction: column;
+  font-size: 30px;
+  transform: translateY(20px);
+  opacity: 0; /* Start invisible */
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+#h1_of_Start{
+    font-size: 3.5rem;
+    background-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#second_of_Start{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+}
+
+.p{
+    font-size: 1.5rem;
+    background-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    font-weight: 600;
+
+}

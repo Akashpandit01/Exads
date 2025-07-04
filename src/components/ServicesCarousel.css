@@ -1,0 +1,99 @@
+/* Wrapper with gradient background */
+.carousel-wrapper.single-card {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb);
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Title and Highlight */
+.carousel-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.carousel-title .highlight {
+  color: #1c1818;
+}
+
+/* Subtitle */
+.carousel-subtitle {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card container */
+.recruitment-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #a79999cc;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Left side text content */
+.recruitment-content {
+  flex: 1 1 400px;
+  padding: 20px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 2rem !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000 !important;  /* Force dark color */
+  text-align: center;
+  white-space: nowrap;
+}
+
+.card-description {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Right side image */
+.recruitment-image {
+  flex: 1 1 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+.recruitment-image img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .recruitment-card {
+    flex-direction: column;
+  }
+
+  .recruitment-content,
+  .recruitment-image {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .recruitment-content {
+    order: 2;
+  }
+
+  .recruitment-image {
+    order: 1;
+  }
+}

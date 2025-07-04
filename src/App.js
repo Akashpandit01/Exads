@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavbarComponent from './components/NavbarComponent';
 
+import Home from './pages/Home';
+import WhoWeAre from './pages/Job';
+// import OurVision from './pages/about/OurVision';
+// import Consulting from './pages/whatWeDo/Consulting';
+// import Technology from './pages/whatWeDo/Technology';
+import Leadership from './pages/Candidate';
+import WhoWeHelp from './pages/WhoWeHelp';
+import ContactUs from './pages/ContactUs';
+import WhatWeDo from './pages/WhatWeDo';
+import Candidate from './pages/Candidate';
+import AboutUs from './pages/AboutUs';
+import Job from './pages/Job';
+  
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NavbarComponent />
+      <Routes>
+        <Route path="/" element={<Home />} />
+       <Route path="/about" element={<AboutUs />} />
+
+        <Route path="/jobs" element={<Job />} />
+        <Route path="/candidate" element={<Candidate />} />
+        {/* <Route path="/what-we-do/technology" element={<Technology />} /> */}
+       <Route path="/What-We-Do" element={<WhatWeDo />} />
+        {/* <Route path="/who-we-help" element={<WhoWeHelp />} /> */}
+        <Route path="/contact" element={<ContactUs />} />
+      </Routes>
+    </Router>
   );
 }
 
