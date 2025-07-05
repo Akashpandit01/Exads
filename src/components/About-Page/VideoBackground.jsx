@@ -11,7 +11,7 @@ const VideoBackground = () => {
       </video>
       <div className="video-overlay-content">
         <h1>Empowering the Future</h1>
-        <p>Join us to explore limitless opportunities in education and innovation.</p>
+        <p>Join us to explore limitless opportunities </p>
       </div>
     </div>
   );

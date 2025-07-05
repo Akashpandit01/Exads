@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./JobCard.css";
-import { FaMapMarkerAlt, FaBriefcase, FaClock, FaMoneyBillWave } from "react-icons/fa";
+import { FaMapMarkerAlt, FaBriefcase, FaMoneyBillWave } from "react-icons/fa";
+import ApplyModal from "./ApplyForm"; // import modal
 
 const JobCard = ({
   title,
@@ -8,44 +9,42 @@ const JobCard = ({
   location,
   type,
   salary,
-  posted,
   description,
-//   reward,
   featured,
- 
 }) => {
-  return (
-    <div className={`job-card ${featured ? "featured" : ""}`}>
-      <div className="job-header">
-        {/* <img src={image} alt={title} className="job-image" /> */}
-        <div className="job-meta">
-          {featured && <span className="featured-badge">⭐ Featured</span>}
-          <span className="posted-time">{posted}</span>
-        </div>
-      </div>
-      <div className="job-content">
-        <h3>{title}</h3>
-        <p className="category">{category}</p>
-        <p className="description">{description}</p>
-        <div className="job-info">
-          <p><FaMapMarkerAlt /> {location}</p>
-          <p><FaBriefcase /> {type}</p>
-          <p><FaMoneyBillWave /> {salary}</p>
-          <p><FaClock /> {posted}</p>
-        </div>
-        <hr />
-        {/* <p className="referral">Referral reward: <strong>{reward}</strong></p> */}
-        <div className="card-buttons">
-         <a href="./src/Form/Form.html" target="_blank">   <button className="btn read-more">
-          
-                 Apply
-                 
-               </button>   
-          </a> 
+  const [showModal, setShowModal] = useState(false);
 
+  const handleShow = () => setShowModal(true);
+  const handleClose = () => setShowModal(false);
+
+  return (
+    <>
+      <div className={`job-card ${featured ? "featured" : ""}`}>
+        <div className="job-header">
+          <div className="job-meta">
+            {featured && <span className="featured-badge">⭐ Featured</span>}
+          </div>
+        </div>
+        <div className="job-content">
+          <h3>{title}</h3>
+          <p className="category">{category}</p>
+          <p className="description">{description}</p>
+          <div className="job-info">
+            <p><FaMapMarkerAlt /> {location}</p>
+            <p><FaBriefcase /> {type}</p>
+            <p><FaMoneyBillWave /> {salary}</p>
+          </div>
+          <hr />
+          <div className="card-buttons">
+            <button className="btn btn-primary w-100" onClick={handleShow}>
+              Apply
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+
+      <ApplyModal show={showModal} handleClose={handleClose} />
+    </>
   );
 };
 

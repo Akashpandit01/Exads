@@ -9,7 +9,7 @@ const jobs = [
     location: "Multiple Locations",
     type: "Permanent / Full Time",
     salary: "$100,000 - $120,000 AUD",
-    posted: "2 years ago",
+    
     description: "Join our healthtech company as a WordPress Developer...",
     
     featured: true,
@@ -21,7 +21,7 @@ const jobs = [
     location: "Sydney",
     type: "Permanent / Full Time",
     salary: "Negotiable",
-    posted: "22 hours ago",
+    
     description: "Creative role for a digital content wizard...",
    
     featured: false,
@@ -33,7 +33,7 @@ const jobs = [
     location: "Sydney",
     type: "Contract / Temp",
     salary: "Not disclosed",
-    posted: "2 days ago",
+    
     description: "Labourer role opening soon...",
     
     featured: false,
@@ -45,7 +45,7 @@ const jobs = [
     location: "Sydney",
     type: "Contract / Temp",
     salary: "Not disclosed",
-    posted: "2 days ago",
+    
     description: "Labourer role opening soon...",
     
     featured: false,
@@ -53,14 +53,14 @@ const jobs = [
   }
 ,
    {
-    title: "Civil Construction Labourer",
-    category: "Building & Construction > Labourer",
+    title: "Digital Content Creator",
+    category: "Multimedia / Design > Content / Editorial",
     location: "Sydney",
-    type: "Contract / Temp",
-    salary: "Not disclosed",
-    posted: "2 days ago",
-    description: "Labourer role opening soon...",
+    type: "Permanent / Full Time",
+    salary: "Negotiable",
     
+    description: "Creative role for a digital content wizard...",
+   
     featured: false,
     image: "https://via.placeholder.com/60"
   }
@@ -71,7 +71,7 @@ const jobs = [
     location: "Sydney",
     type: "Contract / Temp",
     salary: "Not disclosed",
-    posted: "2 days ago",
+    
     description: "Labourer role opening soon...",
     
     featured: false,

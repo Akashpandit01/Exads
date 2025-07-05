@@ -1,6 +1,6 @@
-/* Base Sidebar Styles */
+/* 
 .sidebar {
-  position: fixed;
+  position: inherit;
   top: 0;
   left: -300px;
   width: 280px;
@@ -12,12 +12,12 @@
   z-index: 1001;
 }
 
-/* Slide-in when active */
+
 .sidebar.open {
   left: 0;
 }
 
-/* Header Section */
+
 .sidebar-header {
   display: flex;
   justify-content: space-between;
@@ -26,14 +26,14 @@
   border-bottom: 1px solid #ccc;
 }
 
-/* Close Button */
+
 .close-icon {
   cursor: pointer;
   font-size: 1.2rem;
   color: #333;
 }
 
-/* Filter Toggle Button */
+
 .filter-toggle {
   margin: 1rem;
   padding: 0.5rem 1rem;
@@ -49,7 +49,6 @@
   background: #d686b1;
 }
 
-/* Each Filter Section */
 .filter-section {
   padding: 1rem;
   border-bottom: 1px solid #f0f0f0;
@@ -60,7 +59,7 @@
   background-color: #f9f9f9;
 }
 
-/* Section Title */
+
 .filter-title {
   display: flex;
   justify-content: space-between;
@@ -69,7 +68,7 @@
   font-weight: 500;
 }
 
-/* Filter Options */
+
 .filter-options {
   margin-top: 0.5rem;
   display: flex;
@@ -81,7 +80,7 @@
   margin-right: 0.5rem;
 }
 
-/* Overlay behind sidebar */
+
 .overlay {
   position: fixed;
   top: 0;
@@ -92,9 +91,7 @@
   z-index: 1000;
 }
 
-/* ----------------------------------- */
-/* ✅ Responsive Design Below 768px */
-/* ----------------------------------- */
+
 @media (max-width: 768px) {
   .sidebar {
     width: 80%;
@@ -118,4 +115,4 @@
   .close-icon {
     font-size: 1.5rem;
   }
-}
+} */

@@ -95,3 +95,19 @@
     justify-content: center;
   }
 }
+
+
+
+
+.copy-message {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  animation: fadeOut 2s ease-out;
+}
+
+@keyframes fadeOut {
+  0%   { opacity: 1; }
+  80%  { opacity: 1; }
+  100% { opacity: 0; }
+}

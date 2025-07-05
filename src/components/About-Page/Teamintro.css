@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   gap: 1.5rem;
   background-color: #c5c4c4;
+  margin-bottom: 7px;
 }
 
 .team-text h2 {
@@ -14,11 +15,12 @@
   color: #1a2b4c;
   margin-bottom: 0.5rem;
   box-shadow: 0 8px 20px black;
+  text-align: center;
 }
 
 .team-text p {
   font-size: 1rem;
-  color: #6c757d;
+  color: #141515;
   max-width: 600px;
 }
 

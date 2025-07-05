@@ -14,13 +14,17 @@ import Candidate from './pages/Candidate';
 import AboutUs from './pages/AboutUs';
 import Job from './pages/Job';
 import ScrollToTop from './components/ScrollToTop';
+<<<<<<< HEAD
 
+=======
+>>>>>>> c96c2c5 (about changes)
   
 function App() {
   return (
     <Router>
       <ScrollToTop/>
       <NavbarComponent />
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
        <Route path="/about" element={<AboutUs />} />
