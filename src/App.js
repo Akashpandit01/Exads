@@ -13,27 +13,18 @@ import WhatWeDo from './pages/WhatWeDo';
 import Candidate from './pages/Candidate';
 import AboutUs from './pages/AboutUs';
 import Job from './pages/Job';
-<<<<<<< HEAD
 import ScrollToTop from './components/ScrollToTop';
-<<<<<<< HEAD
 
-=======
->>>>>>> c96c2c5 (about changes)
-=======
-import ScrollToTop from './Scroll';
->>>>>>> 0467539 (WhatWeDo)
+
   
 function App() {
   return (
     <>
     
     <Router>
-<<<<<<< HEAD
+
       <ScrollToTop/>
       <NavbarComponent />
-=======
-      <NavbarComponent/>
->>>>>>> 0467539 (WhatWeDo)
       <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />

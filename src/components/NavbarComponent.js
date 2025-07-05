@@ -32,7 +32,6 @@ const [showLogin, setShowLogin] = useState(false);
   };
 
   return (
-<<<<<<< HEAD
     <>
       <Navbar sticky='top' expand="lg" variant="dark" className="custom-navbar" collapseOnSelect>
         <Container>
@@ -89,38 +88,6 @@ const [showLogin, setShowLogin] = useState(false);
 </Modal>
 
     </>
-=======
-    <Navbar sticky='top' expand="lg" variant="dark" className="custom-navbar" collapseOnSelect>
-      <Container>
-        <Navbar.Brand as={Link} to="/" className="d-flex align-items-center justify-content-between">
-  <img
-    src="/images/logo.jpeg"
-    alt="Mindcrafters Logo"
-    className="navbar-logo"
-  />
- <div className="brand-text ms-2">
-    <div className="brand-title">Mindcrafters</div>
-    <div className="brand-subtitle">HR Partner</div>
-  </div>
-</Navbar.Brand>
-
-        <Navbar.Toggle />
-        <Navbar.Collapse ref={navbarCollapseRef}>
-          <Nav className="ms-auto text-uppercase">
-            <Nav.Link  className="NavLinks" as={Link} to="/" onClick={handleNavLinkClick}>Home</Nav.Link>
-
-          <Nav.Link as={Link} className="NavLinks" to="/about" onClick={handleNavLinkClick}>About Us</Nav.Link>
-
-
-            <Nav.Link as={Link} className="NavLinks" to="/What-We-Do" onClick={handleNavLinkClick}>What We Undertake</Nav.Link>
-            <Nav.Link as={Link} className="NavLinks" to="/candidate" onClick={handleNavLinkClick}>CANDIDATE</Nav.Link>
-            <Nav.Link as={Link} className="NavLinks" to="/jobs" onClick={handleNavLinkClick}>JOBS</Nav.Link>
-            <Nav.Link as={Link} className="NavLinks" to="/contact" onClick={handleNavLinkClick}>Contact Us</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
->>>>>>> 0467539 (WhatWeDo)
   );
 }
 

@@ -9,19 +9,12 @@
   position: relative;
   height: 90px;
   overflow: visible;
-<<<<<<< HEAD
   min-height: 120px;
   position: sticky  !important;
   top: 0;
   z-index: 1040;
 
   
-=======
-  min-height: 90px;
-  position: sticky !important;
-  top: 0;
-  z-index: 1040;
->>>>>>> 0467539 (WhatWeDo)
 }
 /* Logo */
 .navbar-logo {
