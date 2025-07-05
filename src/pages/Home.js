@@ -55,7 +55,7 @@ function Home() {
   <div className="video-overlay-content text-center text-white">
     <h1 className="display-4 fw-bold">Welcome to</h1>
     <h2 className="display-5 fw-bold text-warning">Mindcrafters HR PARTNERS</h2>
-    <Button variant="warning" className="mt-4 px-4 py-2 btn-custom">Discover More</Button>
+    {/* <Button variant="warning" className="mt-4 px-4 py-2 btn-custom">Discover More</Button> */}
   </div>
 </div>
 

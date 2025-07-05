@@ -36,3 +36,16 @@
   margin-top: 1rem;
   color: #f9a825;
 }
+
+.footer-links li link {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.footer-links li a {
+  color: #fff; /* Set default link color */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}

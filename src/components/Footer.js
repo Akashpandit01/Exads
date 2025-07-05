@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <footer className="footer-section">
@@ -27,8 +28,7 @@ function Footer() {
   <li><Link to="/candidate">Candidate</Link></li>
   <li><Link to="/who-we-help">Jobs</Link></li>
   <li><Link to="/contact">Contact Us</Link></li>
-  <li><Link to="/learning-development">Learning And Development</Link></li>
-  <li><Link to="/hr-audits">HR Audits And Benchmarking</Link></li>
+ 
 </ul>
 
           </Col>

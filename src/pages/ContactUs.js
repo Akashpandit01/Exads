@@ -32,18 +32,18 @@ function ContactPage() {
       >
         CONTACT US
       </button>
-      <button 
+      {/* <button 
         onClick={() => setActiveForm('talent')} 
         className={activeForm === 'talent' ? 'active' : ''}
       >
         FIND TALENT
-      </button>
-      <button 
+      </button> */}
+      {/* <button 
         onClick={() => setActiveForm('register')} 
         className={activeForm === 'register' ? 'active' : ''}
       >
-        REGISTER NOW
-      </button>
+       APPLY NOW
+      </button> */}
     </div>
 
     <div className="form-container">

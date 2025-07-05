@@ -14,7 +14,7 @@ function ServicesCarousel() {
       <div className="recruitment-card">
       
         <div className="recruitment-content">
-            <h1 className="card-title">RECRUITMENT & STAFFING</h1>
+            <b className="h1 text-dark  fs-2 fs-md-3 fs-lg-1 text-uppercase fw-bold">RECRUITMENT & STAFFING</b>
           <p className="card-description">
             We help businesses find top talent and build high-performing teams. Our recruitment services ensure the right fit through rigorous screening, while our staffing solutions offer flexible workforce support to meet dynamic business needs.
           </p>

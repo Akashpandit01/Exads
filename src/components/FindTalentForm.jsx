@@ -10,7 +10,7 @@ function FindTalentForm() {
       </div>
       <input type="file" />
       <textarea rows="5" placeholder="Additional Information"></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit" style={{background:"gray"}}>Submit</button>
     </form>
   );
 }

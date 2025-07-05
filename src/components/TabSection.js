@@ -16,19 +16,20 @@ const TabSection = () => {
       case "mission":
         return (
           <p className={`mt-4 text-white ${fade ? "fade-in" : ""}`}>
-            Our mission is to transform and evolve HR practices through technology, operational excellence, and strategic insights to help clients reach their full potential.
+           Identify and attract talent pool, matching talent with best opportunities, adding value to the clients and candidates by providing best HR solutions adherence with ethical practices
           </p>
         );
       case "vision":
         return (
           <p className={`mt-4 text-white ${fade ? "fade-in" : ""}`}>
-            We aim to be recognized as the Gold Standard in HR consulting, uniting our team under the mission of delivering industry-leading solutions.
+           We want to be the preferred and trusted recruitment and staffing partner, connecting top talent with innovative organizations resulting in satisfaction for both organization and workforce.
           </p>
         );
       case "history":
         return (
-          <p className={`mt-4 text-white ${fade ? "fade-in" : ""}`}>
-            Enlace Solutions was founded to provide top talent and reliable HR services. We've grown through expertise in HRMS, wellness, and strategic advisory services.
+          <p className={`mt-4 text-white ${fade ? "fade-in" : ""}`}>We have started Mindcrafters HR Partner with an aim to connect exceptional talent with leading organizations. 
+With over 12+ years of experience in Human Resource-workforce management and a passion for providing best talent to our clients, Mrs. Indrayani Desai(Proprietor) established Mindcrafters HR Partner which mainly emphasis on headhunting and will expands for other HR services in future.
+ Enlace Solutions was founded to provide top talent and reliable HR services. We've grown through expertise in HRMS, wellness, and strategic advisory services.
           </p>
         );
       default:

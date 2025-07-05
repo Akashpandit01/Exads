@@ -78,22 +78,46 @@
 }
 
 /* Responsive layout */
-@media (max-width: 768px) {
+/* Responsive adjustments */
+@media (max-width: 991px) {
   .recruitment-card {
     flex-direction: column;
-  }
-
-  .recruitment-content,
-  .recruitment-image {
-    padding: 10px;
+    align-items: center;
     text-align: center;
+    gap: 20px;
+    padding: 20px;
   }
 
   .recruitment-content {
-    order: 2;
+    width: 100%;
+    text-align: center;
   }
 
   .recruitment-image {
-    order: 1;
+    width: 100%;
+  }
+
+  .recruitment-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Responsive Heading for Recruitment & Staffing */
+@media (max-width: 991px) {
+  .card-title {
+    font-size: 1.5rem; /* slightly smaller on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.3rem; /* smaller on medium mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-title {
+    font-size: 0.1rem; /* smallest on small mobile */
   }
 }

@@ -1,9 +1,9 @@
 /* === Contact Section === */
-.contact-section {
+.contact-sectionf {
   display: flex;
   flex-wrap: wrap;
   padding: 3rem;
-  background: #111;
+  background: #111 !important;
   color: white;
   gap: 2rem;
 }

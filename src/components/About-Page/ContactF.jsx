@@ -5,7 +5,7 @@ import linked from '../../assets/linked.png'
 
 const ContactF = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-sectionf">
       <div className="contact-left">
         <h3>Send us a message 📩</h3>
         <p>

@@ -9,7 +9,7 @@ function ContactForm() {
         <input type="tel" placeholder="Phone" />
       </div>
       <textarea rows="5" placeholder="Message"></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit" style={{background:"gray"}}>Submit</button>
     </form>
   );
 }
