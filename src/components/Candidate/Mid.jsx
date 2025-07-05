@@ -6,15 +6,14 @@ import Video from "../../assets/Video.mp4";
 export const Mid = () => {
   return (
     <>
-      <div className="container-fluid p-3  " style={{backgroundImage:'linear-gradient(135deg, #cf7979 0%,#c0c031 100%)'}}> 
-        <h1 id="h1_of_Mid" className="display-6 display-md-4 display-lg-2 fw-bold text-white ">
+      <div className="container-fluid p-3  " > 
+        <h1 id="h1_of_Mid" className=" fw-bold text-white ">
           Connect With US We Will Find Your Perfect Match
         </h1>
         <p id="p_of_Mid" className="fs-3 fs-md-5 fs-lg-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
-          distinctio saepe itaque dolorem cum nam voluptate quae. Saepe dolores
-          voluptates ratione unde dicta, dignissimos cumque voluptas, enim rem
-          rerum iusto?
+          distinctio saepe itaque dolorem cum nam
+          
         </p>
       </div>
 

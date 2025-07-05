@@ -15,11 +15,11 @@ export const Head = () => {
     <div id="container_fluid_of_Head">
       <div className="container text-white">
         <h1 id="h1_of_Head" className="text-center fw-bold display-4">
-          For Candidates
+          "For Candidates"
         </h1>
-        <p className="fs-3 text-center fs-md-5 fs-lg-4">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda odit aspernatur ea placeat ratione quos
-  voluptas eius adipisci perferendis? Exercitationem dolores aspernatur dolor laudantium vel...
+        <p className="fs-3 text-center fs-md-5 fs-lg-4" id="p_of_Head">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda 
+  
 </p>
 
       </div>

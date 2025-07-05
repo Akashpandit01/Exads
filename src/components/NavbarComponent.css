@@ -9,23 +9,30 @@
   position: relative;
   height: 90px;
   overflow: visible;
+<<<<<<< HEAD
   min-height: 120px;
   position: sticky  !important;
   top: 0;
   z-index: 1040;
 
   
+=======
+  min-height: 90px;
+  position: sticky !important;
+  top: 0;
+  z-index: 1040;
+>>>>>>> 0467539 (WhatWeDo)
 }
 /* Logo */
 .navbar-logo {
-  height: 100px;
-  width: 100px;
+  
+  width: 60px;
   object-fit: cover;
   border-radius: 50%;
   margin-right: 10px;
   position: relative;
-  top: auto;
-  left: auto;
+  /* top: auto;
+  left: auto; */
   transform: none;
 }
 
@@ -120,4 +127,8 @@
     width: 100%;
     margin: 0.4rem 0;
   }
+}
+
+.NavLinks{
+  font-size: 1.1rem !important;
 }
