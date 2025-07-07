@@ -24,8 +24,13 @@
   line-height: 2;
 }
 
-.footer-links li:hover,
+.footer-links li :hover,
 .footer-contact li:hover {
+  color: #f9a825;
+  cursor: pointer;
+}
+
+.LI-A:hover{
   color: #f9a825;
   cursor: pointer;
 }

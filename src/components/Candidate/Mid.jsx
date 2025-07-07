@@ -24,10 +24,11 @@ export const Mid = () => {
 
           <div className="video-overlay">
             <h2 className="fw-bold text-white">Discover the Experience</h2>
-            <p className="text-white">Background video with Bootstrap overlay content</p>
+            {/* <p className="text-white">Background video with Bootstrap overlay content</p> */}
             <Link
               to="/What-We-Do"
               className="Button_of_Candidate"
+              style={{textDecoration:"none"}}
             >
               Know More...
             </Link>
