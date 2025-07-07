@@ -89,6 +89,18 @@ const jobs = [
     featured: false,
     image: "https://via.placeholder.com/60"
   },
+  {
+    title: "Full Stack Developer",
+    category: "IT & Telecomms > Software - Developer",
+    location: "Multiple Locations",
+    type: "Permanent / Full Time",
+    salary: "$100,000 - $120,000 AUD",
+    
+    description: "Join our healthtech company as a WordPress Developer...",
+    
+    featured: true,
+    image: "https://via.placeholder.com/60"
+  },
   
 ];
 

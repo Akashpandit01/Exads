@@ -258,3 +258,19 @@ form button:hover {
   color: #007bff; /* Change this to your preferred hover color */
   transform: translateX(4px); /* Slight right movement */
 }
+
+.contact-footer {
+  background-color: #111; /* Match site theme */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
