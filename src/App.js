@@ -14,15 +14,19 @@ import Candidate from './pages/Candidate';
 import AboutUs from './pages/AboutUs';
 import Job from './pages/Job';
 import ScrollToTop from './components/ScrollToTop';
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 226e844 (changes)
   
 function App() {
   return (
-    <>
-    
     <Router>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 226e844 (changes)
       <ScrollToTop/>
       <NavbarComponent />
       <ScrollToTop/>
@@ -38,7 +42,6 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </Router>
-    </>
   );
 }
 

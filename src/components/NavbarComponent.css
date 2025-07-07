@@ -89,6 +89,13 @@
   color: #000 !important;
 }
 
+
+.navbar-small-btn {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  line-height: 1.2;
+}
+
 /* ========== RESPONSIVE STYLES ========== */
 @media (max-width: 768px) {
   .navbar-logo {

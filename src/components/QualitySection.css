@@ -31,3 +31,57 @@
 .divider {
   border-color: rgba(255, 255, 255, 0.1);
 }
+
+@media (max-width: 768px) {
+  .highlight-box h4 {
+    font-size: 1.2rem;
+  }
+
+  .circle-number {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  img.img-fluid {
+    max-width: 100px;
+  }
+
+  .quality-item p {
+    font-size: 0.95rem;
+  }
+
+  .list-unstyled li span {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .d-flex.align-items-start {
+    flex-direction: column;
+  }
+
+  img.img-fluid {
+    margin-bottom: 1rem;
+  }
+
+  .list-unstyled {
+    padding-left: 0.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .d-flex.align-items-start {
+    flex-direction: column;
+  }
+
+  img.img-fluid {
+    width: 100% !important;  /* Full width image */
+    max-width: 100% !important;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .list-unstyled {
+    padding-left: 0.5rem;
+  }
+}

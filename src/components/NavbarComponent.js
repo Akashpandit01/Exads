@@ -55,10 +55,10 @@ const [showLogin, setShowLogin] = useState(false);
 
               {/* Button triggers modal */}
               <Nav.Link as="span" onClick={() => setShowRegister(true)} style={{ cursor: 'pointer' }}>
-                <span className="btn btn-outline-light btn-sm">Register</span>
+                <span className="btn btn-outline-light navbar-small-btn">Register</span>
               </Nav.Link>
               <Nav.Link as="span" onClick={() => setShowLogin(true)} style={{ cursor: 'pointer' }}>
-    <span className="btn btn-outline-light btn-sm ">Log In</span>
+   <span className="btn btn-outline-light navbar-small-btn">Log In</span>
   </Nav.Link>
             </Nav>
             
