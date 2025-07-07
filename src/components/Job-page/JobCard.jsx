@@ -19,7 +19,7 @@ const JobCard = ({
 
   return (
     <>
-      <div className={`job-card ${featured ? "featured" : ""}`}>
+      <div className={`job-card ${featured ? "featured" : ""} , Div_of_JobCard`}>
         {/* <div className="job-header">
           <div className="job-meta">
             {featured && <span className="featured-badge">⭐ Featured</span>}
@@ -36,7 +36,7 @@ const JobCard = ({
           </div>
           <hr />
           <div className="card-buttons">
-            <button className="btn btn-primary w-100" onClick={handleShow}>
+            <button className="btn btn-primary w-100 Button_of_JobCard" onClick={handleShow}>
               Apply
             </button>
           </div>

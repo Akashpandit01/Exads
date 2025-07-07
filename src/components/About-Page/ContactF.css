@@ -255,8 +255,9 @@ form button:hover {
 }
 
 .contact-left ul li:hover {
-  color: #007bff; /* Change this to your preferred hover color */
+  color: #e09b07; /* Change this to your preferred hover color */
   transform: translateX(4px); /* Slight right movement */
+  
 }
 
 .contact-footer {
@@ -274,3 +275,4 @@ form button:hover {
   margin-left: auto;
   margin-right: auto;
 }
+

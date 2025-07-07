@@ -4,3 +4,16 @@
   gap: 24px;
   padding: 20px;
 }
+
+.Div_of_JobCard {
+  position: relative;
+}
+
+.Button_of_JobCard {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  
+}

@@ -20,8 +20,8 @@ const ContactF = () => {
             <li>📧 mindcraftershrpartner@gmail.com</li>
             <li>📞 +91 927-040-1369</li>
             <li>
-              📍 603 Shriram Chandrama HSG society, near Renault showroom,
-              highway side road Baner, Pune-411045
+              <a id='Anchor_of_Contact' href="https://maps.app.goo.gl/sUnQMGYfQSxhRZV17" target='_blank' style={{textDecoration:"none",color:"white"}}>📍 603 Shriram Chandrama HSG society, near Renault showroom,
+              highway side road Baner, Pune-411045</a>
             </li>
           </ul>
 

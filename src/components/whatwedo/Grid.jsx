@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Grid.css";
 import HR from "../../assets/HR.jpg";
 import HR2 from "../../assets/HR2.jpg";
+import HR123 from "../../assets/HR123.jpg"
+import HR1234 from "../../assets/HR1234.jpg"
 
 export const Grid = () => {
   return (
@@ -40,7 +42,7 @@ export const Grid = () => {
             {/* Third Card */}
             <div className="col-12 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
               <div className="custom-card">
-                <img src={HR2} className="custom-card-img" alt="Recruitment" />
+                <img src={HR1234} className="custom-card-img" alt="Recruitment" />
                 <div className="custom-card-body">
                   <h1 className="custom-card-title">Seamless Integration for Smarter Hiring</h1>
                   <h5 className="custom-card-text">
@@ -53,7 +55,7 @@ export const Grid = () => {
             {/* Fourth Card */}
             <div className="col-12 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
               <div className="custom-card">
-                <img src={HR2} className="custom-card-img" alt="Recruitment" />
+                <img src={HR123} className="custom-card-img" alt="Recruitment" />
                 <div className="custom-card-body">
                   <h1 className="custom-card-title">Beyond Recruitment: Supporting Seamless Transitions</h1>
                   <h5 className="custom-card-text">
