@@ -5,12 +5,12 @@ function ServicesCarousel() {
   return (
     <div className="carousel-wrapper single-card">
       <h2 className="carousel-title">
-        "Strategic HR Solutions That Drive Results."
+      Transforming lives through employments
       </h2>
       <p className="carousel-subtitle">
-        Backed by deep industry knowledge and a results-driven approach, we
-        deliver customized HR strategies that align talent with business
-        goals—ensuring measurable impact at every level.
+      {/* At the core of our mission lies a commitment to creating value through talent.
+       By aligning skilled professionals with forward-thinking organizations, we not only meet workforce demands but also enable individuals to realize their potential — driving sustainable growth for both business and society. */}
+       We connect skilled talent with visionary companies to meet workforce needs. This empowers individuals and fuels long-term business growth
       </p>
 
       <div className="recruitment-card">

@@ -17,13 +17,13 @@ const QualitySection = () => {
           <div className="quality-list">
             <div className="quality-item d-flex align-items-center mb-3">
               <div className="circle-number">01</div>
-              <p className="mb-0 ms-3">Reduce cost</p>
+              <p className="mb-0 ms-3">Effective cost</p>
             </div>
             <hr className="divider" />
 
             <div className="quality-item d-flex align-items-center mb-3">
               <div className="circle-number">02</div>
-              <p className="mb-0 ms-3">Effective HR solutions</p>
+              <p className="mb-0 ms-3">Quality Candidate</p>
             </div>
             <hr className="divider" />
 
@@ -37,7 +37,7 @@ const QualitySection = () => {
         {/* Right Column */}
         <div className="col-md-6">
           <p className="mb-4">
-            Our completely customized HR services are designed to address your company's specific needs, 
+            Our completely customized recruitment services are designed to address your company's specific needs, 
             implementing those initiatives that will bring you extra time as well as the greatest return 
             on your investment.
           </p>
@@ -51,11 +51,11 @@ const QualitySection = () => {
             <ul className="list-unstyled mb-0">
               <li className="d-flex align-items-start mb-2">
                 <FaCheck className="text-warning me-2 mt-1" />
-                <span>Enlace Solutions is reputed for delivering quality well ahead of time.</span>
+                <span>Mindcrafters HR PARTNERS is reputed for delivering quality well ahead of time.</span>
               </li>
               <li className="d-flex align-items-start">
                 <FaCheck className="text-warning me-2 mt-1" />
-                <span>By using experience, we have built a tried and tested HR process that includes cutting-edge methodologies.</span>
+                <span>By using experience, we have built a tried and tested recruitment process that includes cutting-edge methodologies.</span>
               </li>
             </ul>
           </div>

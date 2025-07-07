@@ -29,7 +29,7 @@ const TabSection = () => {
         return (
           <p className={`mt-4 text-white ${fade ? "fade-in" : ""}`}>We have started Mindcrafters HR Partner with an aim to connect exceptional talent with leading organizations. 
 With over 12+ years of experience in Human Resource-workforce management and a passion for providing best talent to our clients, Mrs. Indrayani Desai(Proprietor) established Mindcrafters HR Partner which mainly emphasis on headhunting and will expands for other HR services in future.
- Enlace Solutions was founded to provide top talent and reliable HR services. We've grown through expertise in HRMS, wellness, and strategic advisory services.
+ 
           </p>
         );
       default:
