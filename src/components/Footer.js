@@ -41,8 +41,8 @@ function Footer() {
           <Col md={4}>
             <h5 className="footer-heading">CONTACT</h5>
             <ul className="footer-contact">
-              <li>
-                <a href="https://maps.app.goo.gl/sUnQMGYfQSxhRZV17" target="_blank" class="Anchor_of_Footer"><FaMapMarkerAlt /> 603, Shriram chandrama hsg society, near Renault showroom,
+              <li >
+                <a href="https://maps.app.goo.gl/sUnQMGYfQSxhRZV17" target="_blank" class="Anchor_of_Footer Footer-List111"><FaMapMarkerAlt /> 603, Shriram chandrama hsg society, near Renault showroom,
                 Baner highway side road, Baner, Pune-411045</a>
               </li>
               <li><FaPhoneAlt /> 9270401369</li>
@@ -62,7 +62,7 @@ function Footer() {
 
       {/* COPYRIGHT SECTION */}
       <div className="footer-bottom text-center text-white py-3">
-        © {new Date().getFullYear()} Cortica Web Solutions. All rights reserved.
+        © {new Date().getFullYear()} Cortica Web Solutions pvt.ltd . All rights reserved.
       </div>
     </footer>
   );

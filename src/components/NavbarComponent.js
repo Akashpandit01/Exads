@@ -43,7 +43,7 @@ function NavbarComponent() {
         collapseOnSelect
       >
         <Container>
-          <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center">
+          <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center Navv">
             <img
               src="/images/logo.jpeg"
               alt="Mindcrafters Logo"
