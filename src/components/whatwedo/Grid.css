@@ -2,145 +2,18 @@
 .Grid1 {
   background: linear-gradient(#cf7979 0%, #c0c031 100%);
   color: black;
-}
-
-/* First Card Styling */
-#first_of_Grid {
-  width: 45rem;
-  border: 2px solid white;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); /* More natural shadow */
-  background-color: white;
-}
-
-/* Card Image */
-#img_of_Grid {
-  width: 100%;
-  max-width: 800px;
-}
-
-/* Card Body Text */
-#cardbody_of_Grid,
-#h2_of_Grid {
-  color: #333; /* More readable text */
-}
-
-/* Optional muted text */
-.p1_of_Grid {
-  color: gray;
-}
-
-/* Spacing Utility */
-.Sp_of_Grid {
-  margin-right: 10px;
-}
-
-/* Second Card Styling */
-#second_of_Grid {
-  font-size: 1.2rem;
-  width: 100%;
-  max-width: 500px;
-  min-height: 400px;
-  border: 2px solid #fff;
-  background-color: #fff;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
-}
-
-/* Anchor Button Styling */
-#a1_of_Grid {
-  border: none;
-  border-radius: 20px;
-  transition: all 0.3s ease-in-out;
-}
-#a1_of_Grid:hover {
-  transform: scale(1.03);
-}
-
-/* Transparent Hover Link */
-#a2_of_Grid {
-  background-color: transparent;
-  border: none;
-  transition: all 0.3s ease-in-out;
-}
-#a2_of_Grid:hover {
-  border-radius: 20px;
-  transform: scale(1.03);
-}
-
-/* Muted Link */
-#a3_of_Grid {
-  background-color: transparent;
-  color: #888;
-  border: none;
+  overflow-x: hidden; /* ✅ Prevent right-side margin */
 }
 
 /* Card Container */
-#card_of_Grid {
-  width: 100%;
-  max-width: 500px;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-/* Card Body Light Green */
-#cardbody1_of_Grid {
-  padding: 30px;
-  background-color: #a3f7bf;
-}
-
-/* Heading */
-#h5_of_Grid {
-  color: black;
-  background-color: transparent;
-}
-
-/* Paragraph */
-#p2_of_Grid {
-  background-color: transparent;
-}
-
-/* No Underline Links */
-#a4_of_Grid {
-  text-decoration: none;
-}
-
-/* Container Styling */
-#container_fluid_of_Grid {
-  color: black;
-  padding: 10px;
-  min-height: 300px;
-  margin-bottom: 10px;
-  background-image: linear-gradient(to right, yellow, #edc900);
-}
-
-/* Hoverable Heading */
-#h1_of_Grid {
-  width: 50%;
-  background-color: transparent;
-  transition: transform 0.3s ease-in-out;
-}
-#h1_of_Grid:hover {
-  transform: scale(1.2);
-}
-
-/* Button Styling */
-#button_of_Grid {
-  color: black;
-  font-size: larger;
-  width: 200px;
-  transition: transform 0.3s ease-in-out;
-}
-#button_of_Grid:hover {
-  transform: scale(1.2);
-}
-
 .card-section-bg {
-  /* background: linear-gradient(to bottom, #cf7979 0%, #f1f100 50%, #c49a5b 100%); */
   padding: 50px 0;
 }
 
+/* Card Styling */
 .custom-card {
   width: 100%;
-  max-width: 500px;
+  max-width: 100%;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
@@ -152,6 +25,7 @@
   width: 100%;
   height: auto;
   border-bottom: 1px solid #eee;
+  object-fit: cover;
 }
 
 .custom-card-body {
@@ -163,21 +37,80 @@
 .custom-card-title {
   color: #1a1a1a;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.5rem; /* ✅ Slightly reduced for better mobile layout */
 }
 
 .custom-card-text {
   color: #444;
   margin-top: 10px;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
-.custom-card:hover{
-   
-    transform: scale(1.1);
-   
+/* Hover Effects */
+.custom-card:hover {
+  transform: scale(1.03);
 }
 
-.custom-card-body:hover{
-  transform: scale(1.05);
+.custom-card-body:hover {
+  transform: scale(1.02);
+}
+
+/* CTA Section */
+#container_fluid_of_Grid {
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, yellow, #edc900);
+  text-align: center;
+}
+
+/* CTA Heading */
+#h1_of_Grid {
+  width: 100%;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+#h1_of_Grid:hover {
+  transform: scale(1.1);
+}
+
+/* CTA Button */
+#button_of_Grid {
+  color: black;
+  font-size: 1.1rem;
+  width: 180px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 30px;
+}
+
+#button_of_Grid:hover {
+  transform: scale(1.1);
+}
+
+/* Utility Fix */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Responsive Padding for Smaller Screens */
+@media (max-width: 768px) {
+  .custom-card-title {
+    font-size: 1.3rem;
+  }
+
+  .custom-card-text {
+    font-size: 0.9rem;
+  }
+
+  #h1_of_Grid {
+    font-size: 1.5rem;
+  }
+
+  #button_of_Grid {
+    width: 150px;
+    font-size: 1rem;
+  }
 }
