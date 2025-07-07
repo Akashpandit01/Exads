@@ -30,7 +30,6 @@ function Footer() {
             >
               <FaLinkedin />
             </a>
-
           </Col>
 
           {/* Explore Links */}
