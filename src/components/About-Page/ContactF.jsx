@@ -30,7 +30,7 @@ const ContactF = () => {
           <div className="social-icons">
             <img src={logo} alt="Company Logo" className="company-logo" />
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src={Twitter} alt="Instagram" />
+              <img src={Twitter} alt="Twitter" />
             </a>
 
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
@@ -43,7 +43,7 @@ const ContactF = () => {
             
            
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src={Facebook} alt="Instagram" />
+              <img src={Facebook} alt="Facebook" />
             </a>
            
           </div>
