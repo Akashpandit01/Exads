@@ -72,12 +72,23 @@
 }
 
 /* Text container with fade-in animation */
-.image-overlay-content {
+.image-overlay-content  {
   position: relative;
   z-index: 1;
   padding: 2rem;
   animation: fadeUp 1.5s ease-out forwards;
+  
 }
+
+.image-overlay-content p{
+  text-align: center;
+  color: #FF8C00;
+  font-size: 2rem;
+}
+.image-overlay-content h1{
+  font-size: 4rem;
+}
+
 
 /* Gradient text with hover effect */
 .gradient-text {

@@ -20,11 +20,11 @@ const JobCard = ({
   return (
     <>
       <div className={`job-card ${featured ? "featured" : ""}`}>
-        <div className="job-header">
+        {/* <div className="job-header">
           <div className="job-meta">
             {featured && <span className="featured-badge">⭐ Featured</span>}
           </div>
-        </div>
+        </div> */}
         <div className="job-content">
           <h3>{title}</h3>
           <p className="category">{category}</p>

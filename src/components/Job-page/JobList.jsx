@@ -18,7 +18,7 @@ const jobs = [
   {
     title: "Digital Content Creator",
     category: "Multimedia / Design > Content / Editorial",
-    location: "Sydney",
+    location: "India",
     type: "Permanent / Full Time",
     salary: "Negotiable",
     
@@ -30,7 +30,7 @@ const jobs = [
   {
     title: "Civil Construction Labourer",
     category: "Building & Construction > Labourer",
-    location: "Sydney",
+    location: "India",
     type: "Contract / Temp",
     salary: "Not disclosed",
     
@@ -42,7 +42,7 @@ const jobs = [
   {
     title: "Civil Construction Labourer",
     category: "Building & Construction > Labourer",
-    location: "Sydney",
+    location: "India",
     type: "Contract / Temp",
     salary: "Not disclosed",
     
@@ -55,7 +55,7 @@ const jobs = [
    {
     title: "Digital Content Creator",
     category: "Multimedia / Design > Content / Editorial",
-    location: "Sydney",
+    location: "India",
     type: "Permanent / Full Time",
     salary: "Negotiable",
     
@@ -68,12 +68,24 @@ const jobs = [
 {
     title: "Civil Construction Labourer",
     category: "Building & Construction > Labourer",
-    location: "Sydney",
+    location: "India",
     type: "Contract / Temp",
     salary: "Not disclosed",
     
     description: "Labourer role opening soon...",
     
+    featured: false,
+    image: "https://via.placeholder.com/60"
+  },
+  {
+    title: "Digital Content Creator",
+    category: "Multimedia / Design > Content / Editorial",
+    location: "India",
+    type: "Permanent / Full Time",
+    salary: "Negotiable",
+    
+    description: "Creative role for a digital content wizard...",
+   
     featured: false,
     image: "https://via.placeholder.com/60"
   },

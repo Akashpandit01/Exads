@@ -32,7 +32,7 @@ const Search = () => {
         className="search-input"
       />
 
-      <button className="search-icon-button">
+      <button className="search-icon-button text-white">
         <FaSearch />
       </button>
 
@@ -40,14 +40,14 @@ const Search = () => {
 
       <div className="action-buttons w-5">
         <button
-          className="action-button d-flex justify-content-center align-items-center"
+          className="action-button d-flex justify-content-center align-items-center text-white"
           onClick={handleReferClick}
         >
           <FaUserCheck className="icon" />
           REFER
         </button>
 
-        <button className="action-button d-flex justify-content-center align-items-center">
+        <button className="action-button d-flex justify-content-center align-items-center text-white">
           <FaUserPlus className="icon" />
           REGISTER
         </button>

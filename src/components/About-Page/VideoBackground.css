@@ -27,6 +27,7 @@
   z-index: 2;
   padding: 2rem;
   max-width: 90%;
+  
 }
 
 .video-overlay-content h1 {
@@ -37,6 +38,8 @@
 .video-overlay-content p {
   font-size: 1.25rem;
  color: chocolate;
+ text-align: center;
+ 
 }
 
 @media (max-width: 768px) {
