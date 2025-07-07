@@ -24,6 +24,8 @@ const Search = () => {
 
   return (
     <div className="search-bar-container">
+      <div className='d-flex justify-content-center align-items-center gap-2'>
+
       <input
         type="text"
         placeholder="Search by keyword..."
@@ -33,6 +35,8 @@ const Search = () => {
       <button className="search-icon-button">
         <FaSearch />
       </button>
+
+      </div>
 
       <div className="action-buttons w-5">
         <button

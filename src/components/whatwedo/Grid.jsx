@@ -91,7 +91,7 @@ export const Grid = () => {
             id="button_of_Grid"
             type="button"
             className="btn btn-outline-light"
-            to="/"
+            to="/contact"
           >
             Contact Us
           </Link>

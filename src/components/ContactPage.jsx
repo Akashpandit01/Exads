@@ -8,7 +8,7 @@ function ContactPage() {
 
   return (
     <div className="contact-container">
-      <div className="left-section">
+      {/* <div className="left-section">
         <h2>Leave us a message</h2>
         <p>Level 2, 35 Clarence Street,<br /> Sydney, NSW, 2000</p>
         <p>company@email.com</p>
@@ -21,7 +21,7 @@ function ContactPage() {
           allowFullScreen
           title="map"
         ></iframe>
-      </div>
+      </div> */}
 
       <div className="right-section">
         <div className="button-group">

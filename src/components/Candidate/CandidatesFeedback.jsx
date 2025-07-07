@@ -44,10 +44,10 @@ export const CandidatesFeedback = () => {
         <div>
           <h2 className="fw-bold text-white" style={{ textShadow : "5px 5px 30px black" }}>Candidates feedback</h2>
           <p className="text-white" style={{ maxWidth: "500px" , textShadow : "5px 5px 30px black"}}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
+            "Our candidates value the personal attention and clear communication they receive throughout the hiring process. We match them with the right roles that align with their goals. Their feedback drives us to keep delivering an exceptional experience."
           </p>
         </div>
-        <Link to="/team" className="btn btn-dark fw-semibold">About-US</Link>
+        <Link to="/about" className="btn btn-dark fw-semibold">About-US</Link>
       </div>
 
       <div className="row">
