@@ -111,3 +111,7 @@
   80%  { opacity: 1; }
   100% { opacity: 0; }
 }
+
+.Register_Button{
+  background-color: #2C2C58;
+}

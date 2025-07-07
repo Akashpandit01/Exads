@@ -9,39 +9,38 @@ import "./TeamSection.css";
 
 function TeamSection() {
   return (
-    
-  <section className="about-head">
-
-       
-        <div className="content">
-          <h5>Meet Our Head</h5>
-          <h2>Hr.& Placement Head</h2>
-          <p>
-            Embark on a transformative educational journey with our university's comprehensive education programs.
-            Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed
-            to excel in the dynamic field of education.
-          </p>
-          <p>
-            With a focus on innovation, hands-on learning, and personalized mentorship, our programs prepare aspiring educators
-            to make a meaningful impact in classrooms, schools, and communities.
-          </p>
-          <p>
-            Whether you aspire to become a teacher, administrator, counselor, or educational leader, our diverse range of programs
-            offers the perfect pathway to achieve your goals and unlock your full potential in shaping the future of education.
-          </p>
-
-
-        </div>
-         <div className="abt-image">
+    <section className="about-head">
+      <div className="content">
+        <h3>
+          <b>Founder's thought </b>
+        </h3>
+        {/* <h2>Hr.& Placement Head</h2> */}
+        <p>
+          Effective recruitment means more than hiring the right person for the
+          right job. A fast and efficient recruitment process can reduce costs,
+          enhance a company’s reputation both from a market and candidate
+          perspective and ensure that the very best talent is identified,
+          engaged and brought into the business.
+        </p>
+        <p>
+          However, within the fast-moving business world, time and budget
+          constraints, a lack of targeted talent management skills and demanding
+          pressures from other parts of the business can mean that hiring
+          managers are often left stuck with a situation in which the process
+          becomes long, drawn-out and disengaging
+        </p>
+        <p>
+          We have started Mindcrafters HR Partner mainly emphasis on
+          recruitments—to connect best talent with the best organizations! Where
+          the process is smooth and effective in order to attract and retain the
+          best talent and maintain a strong employer brand in terms of business
+          efficiency and the overall candidate experience.
+        </p>
+      </div>
+      {/* <div className="abt-image">
           <img src={bkh} alt="Graduates" />
-          {/* <div className="play-button">▶</div> */}
-        </div>
-
-      </section>
-      
-
-
-   
+        </div> */}
+    </section>
   );
 }
 

@@ -3,7 +3,8 @@ import './ContactF.css';
 import logo from '../../assets/logo.png';
 import linked from '../../assets/linked.png';
 import insta from '../../assets/insta.png';
-
+import Facebook from '../../assets/facebook.png'
+import Twitter from '../../assets/Twitter.png'
 const ContactF = () => {
   return (
     <>
@@ -28,12 +29,23 @@ const ContactF = () => {
           {/* Company Logo and Social Media */}
           <div className="social-icons">
             <img src={logo} alt="Company Logo" className="company-logo" />
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <img src={Twitter} alt="Twitter" />
+            </a>
+
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <img src={linked} alt="LinkedIn" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+
+             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <img src={insta} alt="Instagram" />
             </a>
+            
+           
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <img src={Facebook} alt="Facebook" />
+            </a>
+           
           </div>
         </div>
 

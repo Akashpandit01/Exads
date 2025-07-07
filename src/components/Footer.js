@@ -10,7 +10,8 @@ import {
 import {
   FaMapMarkerAlt,
   FaPhoneAlt,
-  FaEnvelope
+  FaEnvelope,
+  FaGlobe 
 } from "react-icons/fa";
 
 
@@ -67,6 +68,7 @@ function Footer() {
               </li>
               <li><FaPhoneAlt /> 9270401369</li>
               <li><FaEnvelope /> mindcraftershrpartner@gmail.com</li>
+              <li><FaGlobe /><a href="https://mindcraftershrpartner.com/" class="Anchor_of_Footer Footer-List111" target="_blank" style={{textDecoration:"none"}}>www.mindcraftershrparter.com</a></li>
             </ul>
           </Col>
         </Row>
