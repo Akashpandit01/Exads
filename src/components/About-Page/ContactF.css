@@ -237,3 +237,24 @@ form button:hover {
   transform: scale(1.15);
   filter: grayscale(0%) drop-shadow(0 0 6px #0077b5);
 }
+
+.social-icons img:not(.company-logo) {
+  width: 50px;
+  height: auto;
+  margin: 0 5px;
+}
+
+
+
+
+.contact-left ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-left ul li:hover {
+  color: #007bff; /* Change this to your preferred hover color */
+  transform: translateX(4px); /* Slight right movement */
+}

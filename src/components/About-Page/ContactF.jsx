@@ -2,6 +2,7 @@ import React from 'react';
 import './ContactF.css';
 import logo from '../../assets/logo.png'
 import linked from '../../assets/linked.png'
+import insta from '../../assets/insta.png'
 
 const ContactF = () => {
   return (
@@ -16,7 +17,7 @@ const ContactF = () => {
         </p>
         <ul>
           <li>📧 mindcraftershrpartner@gmail.com</li>
-          <li>📞 +91 123-456-7890</li>
+          <li>📞 +91 927-040-1369</li>
           <li>📍 603 Shriram Chandrama hsg society, near Renault showroom, highway side road Baner, Pune-411045</li>
         </ul>
 
@@ -27,9 +28,14 @@ const ContactF = () => {
   {/* Social Media Icons */}
    <div className="social-icons">
    <img src={logo} alt="Company Logo" className="company-logo" />
+
     <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
       <img src={linked} alt="LinkedIn" />
     </a> 
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      <img src={insta} alt="LinkedIn" />
+    </a> 
+
   </div> 
 </div>
 

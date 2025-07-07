@@ -36,6 +36,7 @@
 
 .video-overlay-content p {
   font-size: 1.25rem;
+ color: chocolate;
 }
 
 @media (max-width: 768px) {

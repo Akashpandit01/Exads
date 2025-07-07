@@ -1,5 +1,6 @@
 import React from 'react';
 import './Teamintro.css';
+import { Link } from 'react-router-dom';
 
 const Teamintro = () => {
   return (
@@ -9,7 +10,10 @@ const Teamintro = () => {
         <p>We have started Mindcrafters HR Partner with an aim to connect exceptional talent with leading organizations. </p>
       </div>
       <div className="team-button">
-        <a href="#contact" className="reach-button">REACH US OUT</a>
+    
+      <Link to="/contact" className="reach-button">REACH US OUT</Link>
+
+      
       </div>
     </section>
   );

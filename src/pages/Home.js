@@ -1,17 +1,16 @@
+import React, { useState } from "react";
 
-import React, { useState } from 'react';
-
-import { Container, Button, Carousel, Row, Col } from 'react-bootstrap';
-import './Home.css'; 
-import Footer from '../components/Footer';
-import ServicesCarousel from '../components/ServicesCarousel';
+import { Container, Button, Carousel, Row, Col } from "react-bootstrap";
+import "./Home.css";
+import Footer from "../components/Footer";
+import ServicesCarousel from "../components/ServicesCarousel";
 import StatsSection from "../components/StatsSection";
-import QualitySection from '../components/QualitySection';
+import QualitySection from "../components/QualitySection";
 import TabSection from "../components/TabSection";
 import TimelineSection from "../components/TimelineSection";
-import FilterSidebar from '../components/FilterSidebar';
+import FilterSidebar from "../components/FilterSidebar";
 function Home() {
-     const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(null);
   return (
     <Container fluid className="home-section text-white pt-0 px-0">
       {/* Carousel */}
@@ -37,27 +36,22 @@ function Home() {
           <Button variant="warning">Discover More</Button>
         </div>
       </Container> */}
-       
 
-     <div className="video-banner-container">
-  <video
-    className="video-banner"
-    autoPlay
-    loop
-    muted
-    playsInline
-  >
-    <source src="/images/vidio1.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-  
-  {/* Overlayed Text */}
-  <div className="video-overlay-content text-center text-white">
-    <h1 className="display-4 fw-bold">Welcome to</h1>
-    <h2 className="display-5 fw-bold text-warning">Mindcrafters HR PARTNERS</h2>
-    {/* <Button variant="warning" className="mt-4 px-4 py-2 btn-custom">Discover More</Button> */}
-  </div>
-</div>
+      <div className="video-banner-container">
+        <video className="video-banner" autoPlay loop muted playsInline>
+          <source src="/images/vidio1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* Overlayed Text */}
+        <div className="video-overlay-content text-center text-white">
+          <h1 className="display-4 fw-bold">Welcome to</h1>
+          <h2 className="display-5 fw-bold text-warning">
+            Mindcrafters HR PARTNERS
+          </h2>
+          {/* <Button variant="warning" className="mt-4 px-4 py-2 btn-custom">Discover More</Button> */}
+        </div>
+      </div>
 
       {/* Service Grid Section */}
       {/* <div className="services-section py-5 px-3">
@@ -90,23 +84,22 @@ function Home() {
         </Container>
       </div> */}
 
+      <ServicesCarousel />
 
-<ServicesCarousel />
-      
       {/* <section className="hero-section d-flex flex-column flex-md-row align-items-center justify-content-between text-start px-4 py-5 bg-warning">
   <div>
     <h1 className="display-5 fw-bold">YOUR HR PARTNERS</h1>
     <div className="alert-box mt-3 p-2 rounded">
       {/* Add a short tagline here if needed */}
-    {/* </div>
+      {/* </div>
   </div>
   <div>
     <button className="btn btn-dark px-4 py-2 mt-3 mt-md-0 btn-c">CONTACT US</button>
   </div> */}
-{/* </section> */} 
+      {/* </section> */}
 
-     {/* Analytics Dropdown Section */}
-{/* <Container className="analytics-section my-5 text-white">
+      {/* Analytics Dropdown Section */}
+      {/* <Container className="analytics-section my-5 text-white">
   <h2 className="text-center mb-4">BENCHMARKING AND ANALYTICS<span className="text-warning">.</span></h2>
   <p className="text-center mb-5 text-secondary">
     Providing you with Analytics that really matter
@@ -191,11 +184,10 @@ function Home() {
   </div>
 </Container> */}
       {/* <StatsSection /> */}
-      <QualitySection/>
+      <QualitySection />
 
-<div className="container my-5">
+      <div className="container my-5">
         <div className="row align-items-start">
-          
           <div className="col-md-6 mb-4">
             <TabSection />
           </div>
@@ -203,15 +195,11 @@ function Home() {
           <div className="col-md-6">
             <TimelineSection />
           </div>
-
         </div>
       </div>
 
-  
-
       <Footer />
     </Container>
-    
   );
 }
 
