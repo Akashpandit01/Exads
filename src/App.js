@@ -19,10 +19,7 @@ import ScrollToTop from './components/ScrollToTop';
   
 function App() {
   return (
-    <>
-    
     <Router>
-
       <ScrollToTop/>
       <NavbarComponent />
       <ScrollToTop/>
@@ -38,7 +35,6 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </Router>
-    </>
   );
 }
 
