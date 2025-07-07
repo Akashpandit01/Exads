@@ -28,9 +28,13 @@
 }
 
 .card-title {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px; /* <-- Add this */
+  color: #000000;
+  text-align: center;
 }
+
 
 .center {
   opacity: 1;
@@ -75,6 +79,12 @@
   color: #000 !important;
 }
 
+.card-description {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 10px; /* Optional - ensure no overlap */
+}
 
 .card-body svg {
   color: #f9a825; /* Yellow icon color */

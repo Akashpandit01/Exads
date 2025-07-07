@@ -31,11 +31,10 @@
 }
 
 .social-icon {
-  display: inline-block;
   font-size: 1.5rem;
-  margin-top: 1rem;
-  color: #f9a825;
-  
+  color: #fff;
+  margin-right: 10px;
+  transition: color 0.3s;
 }
 
 
@@ -51,4 +50,21 @@
   font-size: 1rem;
   font-weight: 500;
   transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.Anchor_of_Footer{
+  text-decoration: none;
+  color: white;
+}
+
+.ins:hover {
+  color: #c029a7; /* Instagram pink hover effect */
+}
+.linkd:hover {
+  color: #171ad7; /* Instagram pink hover effect */
+}
+
+.footer-links li a:hover {
+  color: #f9a825;
+  text-decoration: underline;
 }

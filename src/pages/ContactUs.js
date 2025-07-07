@@ -15,7 +15,9 @@ function ContactPage() {
         <div className="contact-overlay">
           <div className="contact-content">
             <h1>Get in touch with us so we can help you</h1>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+            <p>We specialize in finding the right talent and providing flexible staffing solutions tailored to your business needs.
+With expert screening, industry knowledge, and a commitment to quality, we make hiring easier and more effective.
+Let’s work together to build your high-performing team</p>
           </div>
         </div>
       </div>

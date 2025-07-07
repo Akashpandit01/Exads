@@ -197,6 +197,8 @@
     padding: 10px 15px !important;
     margin: 0 !important;
     text-align: center !important;
+    width:auto;
+    height: auto;
   }
 
   .recruitment-image {
