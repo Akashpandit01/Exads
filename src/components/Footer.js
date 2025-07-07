@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import {FaGlobe, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -47,6 +47,7 @@ function Footer() {
               </li>
               <li><FaPhoneAlt /> 9270401369</li>
               <li><FaEnvelope /> mindcraftershrpartner@gmail.com</li>
+              <li><FaGlobe /><a href="https://mindcraftershrpartner.com/" class="Anchor_of_Footer Footer-List111" target="_blank" style={{textDecoration:"none"}}>www.mindcraftershrparter.com</a></li>
             </ul>
           </Col>
         </Row>
