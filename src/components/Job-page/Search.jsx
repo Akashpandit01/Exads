@@ -1,10 +1,11 @@
 import React from 'react';
 import './Search.css';
 import { FaFilter, FaSearch, FaUserCheck, FaBell, FaUserPlus } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Search = () => {
   const handleReferClick = () => {
-    const homeUrl = `${window.location.origin}/`; // points to Home page of your app
+    const homeUrl = `${window.location.origin}/`;
 
     if (navigator.share) {
       navigator
@@ -24,21 +25,20 @@ const Search = () => {
 
   return (
     <div className="search-bar-container">
-      <div className='d-flex justify-content-center align-items-center gap-2'>
+      <div className="d-flex justify-content-center align-items-center gap-2">
+        <input
+          type="text"
+          placeholder="Search by keyword..."
+          className="search-input"
+        />
 
-      <input
-        type="text"
-        placeholder="Search by keyword..."
-        className="search-input"
-      />
-
-      <button className="search-icon-button text-white">
-        <FaSearch />
-      </button>
-
+        <button className="search-icon-button text-white">
+          <FaSearch />
+        </button>
       </div>
 
       <div className="action-buttons w-5">
+        {/* REFER Button */}
         <button
           className="action-button d-flex justify-content-center align-items-center text-white"
           onClick={handleReferClick}
@@ -47,10 +47,14 @@ const Search = () => {
           REFER
         </button>
 
-        <button className="action-button d-flex justify-content-center align-items-center text-white">
+        {/* REGISTER Link styled as button */}
+        <Link
+          to="/RegisterForm"
+          className="Register_Button action-button d-flex justify-content-center align-items-center text-white text-decoration-none"
+        >
           <FaUserPlus className="icon" />
           REGISTER
-        </button>
+        </Link>
       </div>
     </div>
   );
