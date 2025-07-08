@@ -18,7 +18,52 @@ const ContactF = () => {
             community.
           </p>
           <ul>
-            <li>📧 mindcraftershrpartner@gmail.com</li>
+            <div className="dropdown">
+                <button
+                  className="btn btn-secondary dropdown-toggle text-center"
+                  type="button"
+                  style={{width:"200px"}}
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Connect With Us
+                </button>
+                <ul className="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a
+                      className="dropdown-item active"
+                      href="mailto:careers@mindcraftershrpartners.com"
+                      target="_blank"
+                    >
+                      Carrer Opportunity
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href="mailto:hr@mindcraftershrpartner.com"
+                    >
+                      Connect To Hr
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href="mailto:info@mindcraftershrpartner.com"
+                    >
+                      More Details
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href="mailto:contactus@mindcraftershrpartner.com"
+                    >
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
+              </div>
             <li>📞 +91 927-040-1369</li>
             <li>
               <a id='Anchor_of_Contact' href="https://maps.app.goo.gl/sUnQMGYfQSxhRZV17" target='_blank' style={{textDecoration:"none",color:"white"}}>📍 603 Shriram Chandrama HSG society, near Renault showroom,
