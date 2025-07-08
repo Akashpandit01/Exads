@@ -5,8 +5,8 @@
   gap: 12px;
   padding: 12px 24px;
   font-family: 'Segoe UI', sans-serif;
-  background: #db7b7b;
-  border-bottom: 1px solid #e0e0e0;
+  background: #ce9723;
+  /* border-bottom: 1px solid #e0e0e0; */
 }
 
 .filter-button,

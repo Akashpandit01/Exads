@@ -37,7 +37,7 @@ const ContactF = () => {
               <img src={linked} alt="LinkedIn" />
             </a>
 
-             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+             <a href="https://www.instagram.com/mindcraftershr_solutions?utm_source=qr&igsh=MWp4c3p5c2pxYmwydw== " target="_blank" rel="noopener noreferrer">
               <img src={insta} alt="Instagram" />
             </a>
             

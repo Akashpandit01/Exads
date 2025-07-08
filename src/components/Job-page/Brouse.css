@@ -1,40 +1,5 @@
 /* Brouse.css */
 
-/* .image-background-container {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  opacity: 0.7; 
-  
-}
-
-.image-overlay-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
-  border-radius: 12px;
-}
-
-.image-overlay-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-   background: linear-gradient(to right, #FFD700, #FF8C00);
-}
-
-.image-overlay-content p {
-  font-size: 1.25rem;
-}
-
- */
-
-
  /* Container for background */
 .image-background-container {
   position: relative;
@@ -57,7 +22,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url('../../assets/job.jpg');
+  background-image: url('../../assets/apu.webp');
   background-size: cover;
   background-position: center;
   opacity: 0.2;

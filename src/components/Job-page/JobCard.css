@@ -3,6 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
   padding: 20px;
+  background: linear-gradient(135deg, #c0c031 0%, #cf7979 100%)
 }
 
 .Div_of_JobCard {
