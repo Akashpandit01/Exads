@@ -16,7 +16,7 @@ const TimelineSection = () => {
           <div className="timeline-dot">Upcomings</div>
           <div className="timeline-content">
             <h5>Headhunting Focus</h5>
-            <p>Launched with a strong emphasis on headhunting services for niche and skilled talent acquisition.</p>
+            <p>We will be launching with a strong emphasis on headhunting services for niche and skilled talent acquisition.</p>
           </div>
           
         </div>

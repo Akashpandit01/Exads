@@ -35,7 +35,7 @@ function ServicesCarousel() {
         </div>
 
         <div className="recruitment-image">
-          <img src="./images/Recruitment.jpg" alt="Recruitment & Staffing" />
+          <img src="./images/Career1.jpg" alt="Recruitment & Staffing" />
         </div>
       </div>
     </div>

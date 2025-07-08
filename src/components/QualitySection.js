@@ -17,13 +17,13 @@ const QualitySection = () => {
           <div className="quality-list">
             <div className="quality-item d-flex align-items-center mb-3">
               <div className="circle-number">01</div>
-              <p className="mb-0 ms-3">Effective cost</p>
+              <p className="mb-0 ms-3">Cost Effective</p>
             </div>
             <hr className="divider" />
 
             <div className="quality-item d-flex align-items-center mb-3">
               <div className="circle-number">02</div>
-              <p className="mb-0 ms-3">Quality Candidate</p>
+              <p className="mb-0 ms-3">Competent Workforce</p>
             </div>
             <hr className="divider" />
 

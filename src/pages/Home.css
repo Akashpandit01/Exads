@@ -175,53 +175,51 @@
 
 .hero-background h1 {
   font-size: 3.8rem;
-  color: #ffff;
   font-weight: 900;
+  color: #fff;
   margin-bottom: 0.5rem;
   text-shadow: 2px 2px 2px #000;
-  margin-left: 9rem ;
-  
+  margin-left: 9rem;
 }
+
 
 .hero-background h2 {
   font-size: 3rem;
-   color: #ffff; /* Bootstrap warning */
   font-weight: 600;
+  color: #fff;
   text-shadow: 2px 2px 2px #000;
   margin-bottom: 0.5rem;
-  margin-left: 8rem ;
-
+  margin-left: 8rem;
 }
-
 /* Responsive adjustments */
+/* Responsive: Tablet */
 @media (max-width: 768px) {
-  .hero-background {
-    padding: 1.5rem;
-  }
-
   .hero-background h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
+    margin-left: 2rem;
+    text-align: left;
   }
 
   .hero-background h2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    text-align: left;
   }
 }
 
 @media (max-width: 480px) {
-  .hero-background {
-    padding: 1rem;
-  }
-
   .hero-background h1 {
     font-size: 1.8rem;
+    margin-left: 1rem;
+    text-align: left;
   }
 
   .hero-background h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    text-align: left;
   }
 }
-
 .typing-effect {
   overflow: hidden;
   white-space: nowrap;

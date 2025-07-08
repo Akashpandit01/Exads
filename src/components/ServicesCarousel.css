@@ -3,9 +3,8 @@
   padding: 60px 20px;
   background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb);
   text-align: center;
-  min-height: 100vh;
+  min-height: 400px;
 }
-
 /* Title and Highlight */
 .carousel-title {
   font-size: 2.4rem;
@@ -69,12 +68,14 @@
   flex: 1 1 400px;
   padding: 20px;
   text-align: center;
+
 }
 
 .recruitment-image img {
   max-width: 100%;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  height: 290px;
 }
 
 /* Responsive layout */
@@ -121,103 +122,26 @@
     font-size: 0.1rem; /* smallest on small mobile */
   }
 }
+
 @media (max-width: 576px) {
-  .recruitment-card {
-    padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
-  }
-
-  .recruitment-image {
-    padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
-  }
-
-  .recruitment-image img {
-    margin-bottom: 0 !important;
-    display: block;
-  }
-
-  .recruitment-content {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
+  body,
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
   }
 
   .carousel-wrapper.single-card {
     padding-bottom: 0 !important;
   }
-}
-@media (max-width: 576px) {
-  .carousel-wrapper.single-card {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
 
   .recruitment-card {
-    padding: 0 !important;
-    margin: 0 auto !important;
-    box-shadow: none !important;
-    background: transparent !important;
-  }
-
-.recruitment-content {
-  display: block !important;
-  padding: 10px 15px;
-  text-align: center;
-}
-  .recruitment-image {
-    padding: 0 !important;
-    margin: 0 !important;
+    margin-bottom: 0 !important;
   }
 
   .recruitment-image img {
     display: block;
-    width: 100% !important;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border-radius: 0 !important;
+    margin-bottom: 0 !important;
   }
 }
-@media (max-width: 576px) {
-  .carousel-wrapper.single-card {
-    padding: 10px 0 !important;
-    margin: 0 !important;
-    min-height: auto !important;
-  }
 
-  .recruitment-card {
-    flex-direction: column;
-    padding: 0 !important;
-    margin: 0 auto !important;
-    background: transparent !important;
-    box-shadow: none !important;
-  }
-
-  .recruitment-content {
-    padding: 10px 15px !important;
-    margin: 0 !important;
-    text-align: center !important;
-    width:auto;
-    height: auto;
-  }
-
-  .recruitment-image {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
-  .recruitment-image img {
-    display: block;
-    width: 100% !important;
-    height: auto !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-    border-radius: 0 !important;
-  }
-
-  .card-title,
-  .card-description {
-    font-size: 1rem !important;
-    line-height: 1.5;
-  }
-}
