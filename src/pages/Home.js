@@ -95,10 +95,7 @@ function Home() {
   className="hero-background text-white d-flex align-items-center"
   style={{
     backgroundImage: "url('/images/mindcraftersbg.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    height: "85vh",
+   
   }}
 >
   <div style={{ marginLeft: "60px" }}>
