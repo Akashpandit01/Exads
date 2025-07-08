@@ -42,7 +42,7 @@ function NavbarComponent() {
         className="custom-navbar"
         collapseOnSelect
       >
-        <Container>
+        <Container >
           <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center Navv">
             <img
               src="/images/logo.jpeg"
@@ -62,7 +62,7 @@ function NavbarComponent() {
                 as={NavLink}
                 to="/"
                 onClick={handleNavLinkClick}
-                className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}
+                className={({ isActive }) => isActive ? "active nav-link" : "nav-link align"}
               >
                 Home
               </Nav.Link>
