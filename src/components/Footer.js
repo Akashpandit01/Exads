@@ -26,7 +26,7 @@ function Footer() {
           {/* Logo & Tagline */}
     <Col md={4} className="footer-brand text-center d-flex flex-column align-items-center mb-4 mb-md-0">
   <img src="/images/logo.jpeg" alt="Enlace Solutions" className="footer-logo mb-2" />
-  <p className="footer-tagline">Transforming organisations with HR expertise</p>
+  <p className="footer-tagline">Empowering Futures Through Careers</p>
   <div className="footer-social-icons d-flex justify-content-center gap-3">
   <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon linkd">
     <FaLinkedin />

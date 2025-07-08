@@ -51,7 +51,7 @@ const QualitySection = () => {
             <ul className="list-unstyled mb-0">
               <li className="d-flex align-items-start mb-2">
                 <FaCheck className="text-warning me-2 mt-1" />
-                <span>Mindcrafters HR PARTNERS is reputed for delivering quality well ahead of time.</span>
+                <span>Mindcrafters HR Partner is reputed for delivering quality well ahead of time.</span>
               </li>
               <li className="d-flex align-items-start">
                 <FaCheck className="text-warning me-2 mt-1" />

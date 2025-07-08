@@ -38,7 +38,7 @@ function Home() {
         </div>
       </Container> */}
        
-
+{/* 
      <div className="video-banner-container">
   <video
     className="video-banner"
@@ -49,15 +49,15 @@ function Home() {
   >
     <source src="/images/vidio1.mp4" type="video/mp4" />
     Your browser does not support the video tag.
-  </video>
+  </video> */}
   
   {/* Overlayed Text */}
-  <div className="video-overlay-content text-center text-white">
+  {/* <div className="video-overlay-content text-center text-white">
     <h1 className="display-4 fw-bold">Welcome to</h1>
-    <h2 className="display-5 fw-bold text-warning">Mindcrafters HR PARTNERS</h2>
+    <h2 className="display-5 fw-bold text-warning">Mindcrafters HR PARTNERS</h2> */}
     {/* <Button variant="warning" className="mt-4 px-4 py-2 btn-custom">Discover More</Button> */}
-  </div>
-</div>
+  {/* </div>
+</div> */}
 
       {/* Service Grid Section */}
       {/* <div className="services-section py-5 px-3">
@@ -90,6 +90,22 @@ function Home() {
         </Container>
       </div> */}
 
+
+<div
+  className="hero-background text-white d-flex align-items-center"
+  style={{
+    backgroundImage: "url('/images/mindcraftersbg.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    height: "85vh",
+  }}
+>
+  <div style={{ marginLeft: "60px" }}>
+    <h1 className="typing-effect ">WELCOME TO </h1>
+    <h2 className="typing-effect delay ">MINDCRAFTERS HR PARTNER</h2>
+  </div>
+</div>
 
 <ServicesCarousel />
       

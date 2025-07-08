@@ -24,7 +24,7 @@ const TimelineSection = () => {
           <div className="timeline-dot">Upcomings</div>
           <div className="timeline-content">
             <h5>Strategic Growth Vision</h5>
-            <p>Set the roadmap to expand into additional HR services including payroll, compliance, and HR tech.</p>
+            <p>Set the roadmap to expand into additional recruitment services including payroll, compliance, and HR tech.</p>
           </div>
         </div>
        

@@ -152,3 +152,99 @@
 .video-overlay-content h2 {
   animation-delay: 0.8s; /* Starts a bit later than h1 */
 }
+
+.hero-background {
+  /* businessman.jpg */
+  /* background-image: url('./../assets/background1st.webp');
+   ✅ adjust path if needed */
+
+    background-image: url('./../assets/mindcraftersbg.jpg');
+  background-size: cover;              /* Ensures image fills the area */
+  background-position: center center;  /* Centers the image */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;                   /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.hero-background h1 {
+  font-size: 3.8rem;
+  color: #ffff;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 2px #000;
+  margin-left: 9rem ;
+  
+}
+
+.hero-background h2 {
+  font-size: 3rem;
+   color: #ffff; /* Bootstrap warning */
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #000;
+  margin-bottom: 0.5rem;
+  margin-left: 8rem ;
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-background {
+    padding: 1.5rem;
+  }
+
+  .hero-background h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-background h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-background {
+    padding: 1rem;
+  }
+
+  .hero-background h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-background h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.typing-effect {
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 900;
+  width: fit-content;
+
+  /* ✅ Typing animation ONLY – no caret */
+  animation: typing 3s steps(30, end) forwards;
+  border-right: none !important; /* 👈 ensures caret is removed */
+}
+
+.typing-effect.delay {
+animation: typing 4s steps(40, end) 3.2s forwards;
+  border-right: none !important; /* 👈 remove caret here too */
+}
+
+/* Typing keyframes */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+  
