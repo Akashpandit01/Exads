@@ -1,6 +1,9 @@
 /* Navbar Background and Layout */
 .custom-navbar {
-  background-color:#36454F;
+  background-color:#006a4e;
+  /* background: linear-gradient(to right, #006a4e, #800000); */
+  /* #006a4e; */
+  /* #5a0e28; */
    /* #084762; */
    /* background-color: linear-gradient(to right, #f7931e, #ffaf40); */
   border-color: #5f9493;
