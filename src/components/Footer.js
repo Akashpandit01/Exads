@@ -73,7 +73,7 @@ function Footer() {
           </Col>
         </Row>
 
-        <hr className="footer-divider" />
+        {/* <hr className="footer-divider" /> */}
 
       </Container>
 

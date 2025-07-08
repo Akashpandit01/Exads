@@ -1,9 +1,11 @@
 /* Wrapper with gradient background */
+
+
 .carousel-wrapper.single-card {
   padding: 60px 20px;
   background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb);
   text-align: center;
-  min-height: 400px;
+
 }
 /* Title and Highlight */
 .carousel-title {
@@ -65,7 +67,7 @@
 
 /* Right side image */
 .recruitment-image {
-  flex: 1 1 400px;
+  flex: 1 1 200px;
   padding: 20px;
   text-align: center;
 

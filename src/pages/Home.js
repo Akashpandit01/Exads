@@ -102,8 +102,9 @@ function Home() {
   }}
 >
   <div style={{ marginLeft: "60px" }}>
-    <h1 className="typing-effect ">WELCOME TO </h1>
-    <h2 className="typing-effect delay ">MINDCRAFTERS HR PARTNER</h2>
+    <h1 className="typing-effect">WELCOME TO </h1>
+    <h2 className="typing-effect ">MINDCRAFTERS  </h2>
+    <h4 className='typing-effect'> HR PARTNER.</h4>
   </div>
 </div>
 
