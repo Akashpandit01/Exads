@@ -168,7 +168,7 @@ function Footer() {
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
-                  www.mindcraftershrparter.com
+                  www.mindcraftershrpartner.com
                 </a>
               </li>
             </ul>
