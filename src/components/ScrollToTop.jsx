@@ -5,7 +5,7 @@ function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to top-left of the page
+    window.scrollTo(0, 0); 
   }, [pathname]);
 
   return null;

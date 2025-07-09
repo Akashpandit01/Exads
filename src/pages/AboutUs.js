@@ -1,4 +1,4 @@
-// src/pages/AboutUs.js
+
 import React from 'react';
 import VideoBackground from '../components/About-Page/VideoBackground';
 import AboutUspage from '../components/About-Page/AboutUspage';

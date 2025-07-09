@@ -1,9 +1,10 @@
 {
   "name": "mindcreafterhrsolution",
-  "homepage": "https://mindcraftershrpartner.com/mindcreafterhrsolution" , 
+  "homepage": "https://mindcraftershrpartner.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^5.9.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",

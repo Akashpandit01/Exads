@@ -30,9 +30,9 @@ function App() {
 
         <Route path="/jobs" element={<Job />} />
         <Route path="/candidate" element={<Candidate />} />
-        {/* <Route path="/what-we-do/technology" element={<Technology />} /> */}
+       
        <Route path="/What-We-Do" element={<WhatWeDo />} />
-        {/* <Route path="/who-we-help" element={<WhoWeHelp />} /> */}
+        
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/RegisterForm" element={<RegisterForm/>}/>
       </Routes>

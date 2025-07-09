@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // ✅ Import Link
+import { Link } from "react-router-dom"; 
 import { FeedbackCard } from "./FeedbackCard";
 import googleLogo from "../../assets/google-logo.png";
 
@@ -56,9 +56,7 @@ export const CandidatesFeedback = () => {
         ))}
       </div>
 
-      {/* <div className="text-center mt-4">
-        <button className="btn btn-outline-dark px-4">LOAD MORE</button>
-      </div> */}
+ 
     </div>
   );
 };

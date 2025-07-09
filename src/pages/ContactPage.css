@@ -1,7 +1,6 @@
-/* Hero Section */
 .contact-hero {
   position: relative;
-  background-image: url("../../src/assets/contact.jpg");
+  background-image: url('../assets/contact.jpeg');
   background-size: cover;
   height: 400px;
   display: flex;
@@ -27,10 +26,10 @@
   margin: 0 auto;
 }
 
-/* Contact Section */
+
 .contact-section {
   display: flex;
-  justify-content: center; /* Center the form */
+  justify-content: center; 
 padding: 60px 20px;
 margin-right: 5px;
  background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb) !important ;
@@ -39,7 +38,7 @@ margin-right: 5px;
 .right-side {
   max-width: 500px;
   width: 100%;
-  padding: 20px; /* add padding around the form tabs and container */
+  padding: 20px; 
   background:#6d6c6c !important;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
@@ -50,14 +49,10 @@ margin-right: 5px;
 
 
 
-/* Optional: on hover, slightly darker */
-
-
-/* Form Tabs */
 .form-tabs {
   display: flex;
   margin-bottom: 20px;
-  gap: 10px; /* spacing between buttons */
+  gap: 10px; 
 }
 
 .form-tabs button {
@@ -75,21 +70,20 @@ margin-right: 5px;
   color: #fff !important;
   font-weight: bold;
 }
-/* Container for each form tab */
+
 .form-container {
   background: #6c6c6d !important;
-  padding: 30px;               /* Uniform padding */
-  border-radius: 12px;         /* Optional: rounded corners */
+  padding: 30px;              
+  border-radius: 12px;         
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* All inputs, selects, and textareas inside forms */
 .form-container input,
 .form-container select,
 .form-container textarea {
   width: 100%;
-  padding: 12px 15px;          /* Consistent inner padding */
-  margin-bottom: 15px;         /* Space between fields */
+  padding: 12px 15px;          
+  margin-bottom: 15px;         
   font-size: 15px;
   border: 1px solid #ccc !important;
   border-radius: 6px;
@@ -97,13 +91,13 @@ margin-right: 5px;
   box-sizing: border-box;
 }
 
-/* Adjust textarea */
+
 .form-container textarea {
   min-height: 100px;
   resize: vertical;
 }
 
-/* Submit button */
+
 .form-container button[type="submit"],
 .form-container button[type="button"] {
   padding: 12px 25px;

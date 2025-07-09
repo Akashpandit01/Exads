@@ -1,11 +1,11 @@
 .timeline-container {
   position: relative;
-  padding-left: 40px; /* Space before timeline line */
+  padding-left: 40px; 
 }
 
 .timeline {
   border-left: 2px solid #f9a825;
-  padding-left: 90px; /* Space between timeline line and text */
+  padding-left: 90px; 
   position: relative;
 }
 
@@ -16,7 +16,7 @@
 
 .timeline-dot {
   position: absolute;
-  left: -100px; /* Shift dot left relative to line */
+  left: -100px; 
   top: 0;
   background: #f9a825;
   color: black;

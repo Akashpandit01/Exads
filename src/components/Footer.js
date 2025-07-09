@@ -10,10 +10,9 @@ import {
 import {
   FaMapMarkerAlt,
   FaPhoneAlt,
-  FaEnvelope,
   FaGlobe,
 } from "react-icons/fa";
-
+import logo from "../components/logo.jpeg"
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -22,13 +21,13 @@ function Footer() {
     <footer className="footer-section">
       <Container>
         <Row className="py-5 text-white ">
-          {/* Logo & Tagline */}
+          
           <Col
             md={4}
             className="footer-brand text-center d-flex flex-column align-items-center mb-4 mb-md-0"
           >
             <img
-              src="/images/logo.jpeg"
+              src={logo}
               alt="Enlace Solutions"
               className="footer-logo mb-2"
             />
@@ -69,7 +68,7 @@ function Footer() {
             </div>
           </Col>
 
-          {/* Explore Links */}
+          
           <Col md={4} className="mb-4 mb-md-0">
             <h5 className="footer-heading">EXPLORE</h5>
             <ul className="footer-links">
@@ -94,7 +93,7 @@ function Footer() {
             </ul>
           </Col>
 
-          {/* Contact Info */}
+        
           <Col md={4}>
             <h5 className="footer-heading">CONTACT</h5>
             <ul className="footer-contact">
@@ -111,7 +110,7 @@ function Footer() {
               <li>
                 <FaPhoneAlt /> +91 9270401369
               </li>
-              {/* <li><FaEnvelope /> mindcraftershrpartner@gmail.com</li> */}
+            
 
               <div className="dropdown">
                 <button
@@ -175,10 +174,10 @@ function Footer() {
           </Col>
         </Row>
 
-        {/* <hr className="footer-divider" /> */}
+        
       </Container>
 
-      {/* COPYRIGHT SECTION */}
+    
       <div className="footer-bottom text-center text-white py-3">
         © {new Date().getFullYear()} Cortica Web Solutions pvt.ltd . All rights
         reserved.

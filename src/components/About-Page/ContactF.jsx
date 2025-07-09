@@ -71,7 +71,7 @@ const ContactF = () => {
             </li>
           </ul>
 
-          {/* Company Logo and Social Media */}
+         
           <div className="social-icons">
             <img src={logo} alt="Company Logo" className="company-logo" />
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
@@ -120,7 +120,7 @@ const ContactF = () => {
         </div>
       </section>
 
-      {/* ✅ Copyright */}
+     
       <div className="contact-footer">
         <hr className="footer-divider" />
         <p className="text-center">

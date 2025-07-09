@@ -6,7 +6,7 @@
   padding: 12px 24px;
   font-family: 'Segoe UI', sans-serif;
   background: #ce9723;
-  /* border-bottom: 1px solid #e0e0e0; */
+  
 }
 
 .filter-button,
@@ -71,7 +71,6 @@
   font-size: 16px;
 }
 
-/* 🔁 Responsive Breakpoints */
 @media (max-width: 768px) {
   .search-bar-container {
     flex-direction: column;

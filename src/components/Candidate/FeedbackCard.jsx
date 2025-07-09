@@ -24,7 +24,6 @@ export const FeedbackCard = ({ review, author, logo, stamp, stars = 5 }) => {
             )}
           </p>
         )}
-        {/* <img src={stamp} alt="stamp" className="stamp-img position-absolute bottom-0 end-0 m-3" /> */}
       </div>
     </div>
   );

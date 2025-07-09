@@ -1,11 +1,8 @@
-/* Navbar Background and Layout */
+
 .custom-navbar {
-  /* background-color: #32383b;; */
+
    background: linear-gradient(to right, #006a4e, #800000); 
-  /* #006a4e; */
-  /* #5a0e28; */
-   /* #084762; */
-   /* background-color: linear-gradient(to right, #f7931e, #ffaf40); */
+
   border-color: #5f9493;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
@@ -19,7 +16,7 @@
   z-index: 1040;
 
 }
-/* Logo */
+
 .navbar-logo {
   
   width: 60px;
@@ -27,8 +24,7 @@
   border-radius: 50%;
   margin-right: 10px;
   position: relative;
-  /* top: auto;
-  left: auto; */
+ 
   transform: none;
 }
 
@@ -55,8 +51,6 @@
   font-weight: 300;
 }
 
-
-/* Nav Links: Smaller Font, Tight Padding */
 .navbar-nav .nav-link {
   color: #ffffff !important;
   font-size: 1.01rem;
@@ -74,7 +68,7 @@
 }
 
 
-/* Dropdown Menu Background and Item Spacing */
+
 .custom-dropdown .dropdown-menu {
   background-color: #000 !important;
   padding: 0;
@@ -99,7 +93,7 @@
   line-height: 1.2;
 }
 
-/* ========== RESPONSIVE STYLES ========== */
+
 @media (max-width: 768px) {
   .navbar-logo {
     height: 60px;
@@ -137,7 +131,6 @@
 }
 
 .active.nav-link {
-  color: #ffd700 !important; /* Gold color */
-  font-weight: bold;
+  color: #ffd700 !important;
   border-bottom: 2px solid #ffd700;
 }

@@ -14,7 +14,7 @@ function TeamSection() {
         <h3>
           <b>Founder's thought </b>
         </h3>
-        {/* <h2>Hr.& Placement Head</h2> */}
+        
         <p>
           Effective recruitment means more than hiring the right person for the
           right job. A fast and efficient recruitment process can reduce costs,
@@ -37,16 +37,11 @@ function TeamSection() {
           efficiency and the overall candidate experience.
         </p>
       </div>
-      {/* <div className="abt-image">
-          <img src={bkh} alt="Graduates" />
-        </div> */}
+      
     </section>
   );
 }
 
 export default TeamSection;
 
-//   )
-// }
 
-// export default TeamSection

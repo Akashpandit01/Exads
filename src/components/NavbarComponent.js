@@ -1,10 +1,11 @@
-// NavbarComponent.js
+
 import React, { useEffect, useRef, useState } from "react";
 import { Navbar, Nav, Container, Modal } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import RegisterForm from "./RegisterForm";
 import LoginForm from "./LoginForm";
 import "./NavbarComponent.css";
+import logo from "../components/logo.jpeg"
 
 function NavbarComponent() {
   const [showRegister, setShowRegister] = useState(false);
@@ -45,7 +46,7 @@ function NavbarComponent() {
         <Container >
           <Navbar.Brand as={NavLink} to="/" className="d-flex align-items-center Navv">
             <img
-              src="/images/logo.jpeg"
+              src={logo}
               alt="Mindcrafters Logo"
               className="navbar-logo"
             />
@@ -130,7 +131,7 @@ function NavbarComponent() {
         </Container>
       </Navbar>
 
-      {/* Register Modal */}
+   
       <Modal show={showRegister} onHide={() => setShowRegister(false)} centered>
         <Modal.Header closeButton>
           <Modal.Title>Register Now</Modal.Title>
@@ -140,7 +141,7 @@ function NavbarComponent() {
         </Modal.Body>
       </Modal>
 
-      {/* Login Modal */}
+
       <Modal show={showLogin} onHide={() => setShowLogin(false)} centered>
         <Modal.Header closeButton>
           <Modal.Title>Log In</Modal.Title>

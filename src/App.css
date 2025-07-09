@@ -1,5 +1,5 @@
 .carousel-item img {
-  height: 400px; /* or whatever height you prefer */
+  height: 400px; 
   object-fit: cover;
   object-position: center;
 }

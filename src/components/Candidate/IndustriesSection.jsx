@@ -12,7 +12,7 @@ export const IndustriesSection = () => {
   return (
     <div className="container-fluid py-5  industries-section-bg">
       <div className="row align-items-center">
-        {/* Left Side Content */}
+        
         <div className="col-lg-6 mb-4 mb-lg-0">
           <h2 className="fw-bold mb-2">Industries we specialize in</h2>
           <div className="underline mb-3"></div>
@@ -32,7 +32,7 @@ export const IndustriesSection = () => {
           </Link>
         </div>
 
-        {/* Right Side: 2 Cards Per Row Using Grid */}
+        
         <div className="col-lg-6">
           <div className="row g-3">
             <div className="col-12 col-md-6">

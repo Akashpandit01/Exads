@@ -7,7 +7,7 @@ const AboutUspage = () => {
     <section className="about-university">
       <div className="about-image">
         <img src={aboutImg} alt="Graduates" />
-        {/* <div className="play-button">▶</div> */}
+       
       </div>
       <div className="about-content">
         <h5>ABOUT Us</h5>
@@ -32,12 +32,7 @@ const AboutUspage = () => {
           enterprises, Mindcrafters is your trusted partner in building
           high-performing teams that drive sustainable growth.
         </p>
-        {/* <p>
-          Our proven expertise in Executive Search empowers us to support
-          strategic hiring at the leadership level. By leveraging industry best
-          practices and an in-depth understanding of market dynamics, we deliver
-          exceptional talent solutions that drive business success. At
-          Mindcrafters,*/}
+     
         <p>
         <b>
           we don’t just recruit—we craft futures, elevate careers, and help

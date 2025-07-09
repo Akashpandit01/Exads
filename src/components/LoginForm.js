@@ -1,6 +1,6 @@
-// src/components/LoginForm.js
+
 import React, { useState } from 'react';
-import './RegisterForm.css'; // reuse styling if you want
+import './RegisterForm.css'; 
 
 function LoginForm() {
   const [formData, setFormData] = useState({

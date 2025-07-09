@@ -3,8 +3,8 @@
   color: #fff;
   padding: 25px;
   border-radius: 12px;
-  width: 280px;       /* Increased width */
-  height: 280px;      /* Increased height */
+  width: 280px;       
+  height: 280px;      
   margin: 0 15px;
   text-align: center;
   position: absolute;
@@ -23,14 +23,14 @@
 }
 
 .card-icon {
-  font-size: 3.5rem;   /* Bigger icon size */
+  font-size: 3.5rem;   
   margin: 20px 0;
 }
 
 .card-title {
   font-size: 1.3rem;
   font-weight: bold;
-  margin-bottom: 15px; /* <-- Add this */
+  margin-bottom: 15px; 
   color: #000000;
   text-align: center;
 }
@@ -62,14 +62,14 @@
 }
 
 .count-number {
-  font-size: 1.8rem; /* Smaller count size */
+  font-size: 1.8rem;
   font-weight: bold;
   margin: 0;
   color: white;
 }
 
 .card:hover {
-  background-color: #f9a825 !important; /* Yellow shade */
+  background-color: #f9a825 !important; 
   color: #000 !important;
   cursor: pointer;
 }
@@ -83,15 +83,15 @@
   font-size: 1rem;
   color: #444;
   line-height: 1.6;
-  margin-top: 10px; /* Optional - ensure no overlap */
+  margin-top: 10px; 
 }
 
 .card-body svg {
-  color: #f9a825; /* Yellow icon color */
+  color: #f9a825; 
 }
 
 .card:hover svg {
-  color: #000; /* Black icon color on hover */
+  color: #000; 
 }
 
 .stats-card {

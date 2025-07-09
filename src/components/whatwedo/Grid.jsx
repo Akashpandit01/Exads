@@ -10,10 +10,10 @@ export const Grid = () => {
   return (
     <>
       <div className="Grid1 container-fluid p-0 pt-5">
-        {/* Cards Container Wrapped in Bootstrap Container */}
+        
         <div className="container">
           <div className="row justify-content-center g-4 card-section-bg">
-            {/* First Card */}
+            
             <div className="col-12 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
               <div className="custom-card">
                 <img src={HR} className="custom-card-img" alt="HR Outsourcing" />
@@ -26,7 +26,6 @@ export const Grid = () => {
               </div>
             </div>
 
-            {/* Second Card */}
             <div className="col-12 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
               <div className="custom-card">
                 <img src={HR2} className="custom-card-img" alt="Recruitment" />
@@ -39,7 +38,7 @@ export const Grid = () => {
               </div>
             </div>
 
-            {/* Third Card */}
+            
             <div className="col-12 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
               <div className="custom-card">
                 <img src={HR1234} className="custom-card-img" alt="Recruitment" />
@@ -52,7 +51,7 @@ export const Grid = () => {
               </div>
             </div>
 
-            {/* Fourth Card */}
+           
             <div className="col-12 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
               <div className="custom-card">
                 <img src={HR123} className="custom-card-img" alt="Recruitment" />
@@ -67,7 +66,7 @@ export const Grid = () => {
           </div>
         </div>
 
-        {/* CTA Section */}
+        
         <div
           id="container_fluid_of_Grid"
           className="container-fluid d-flex flex-column justify-content-center align-items-center text-center p-4 mt-5"

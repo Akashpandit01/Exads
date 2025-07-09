@@ -1,16 +1,15 @@
-/* Gradient Background & Default Text */
+
 .Grid1 {
   background: linear-gradient(#cf7979 0%, #c0c031 100%);
   color: black;
-  overflow-x: hidden; /* ✅ Prevent right-side margin */
+  overflow-x: hidden; 
 }
 
-/* Card Container */
+
 .card-section-bg {
   padding: 50px 0;
 }
 
-/* Card Styling */
 .custom-card {
   width: 100%;
   max-width: 100%;
@@ -37,7 +36,7 @@
 .custom-card-title {
   color: #1a1a1a;
   font-weight: 700;
-  font-size: 1.5rem; /* ✅ Slightly reduced for better mobile layout */
+  font-size: 1.5rem; 
 }
 
 .custom-card-text {
@@ -46,7 +45,6 @@
   font-size: 0.95rem;
 }
 
-/* Hover Effects */
 .custom-card:hover {
   transform: scale(1.03);
 }
@@ -55,7 +53,7 @@
   transform: scale(1.02);
 }
 
-/* CTA Section */
+
 #container_fluid_of_Grid {
   color: black;
   padding: 20px;
@@ -64,7 +62,7 @@
   text-align: center;
 }
 
-/* CTA Heading */
+
 #h1_of_Grid {
   width: 100%;
   font-size: 1.8rem;
@@ -75,7 +73,6 @@
   transform: scale(1.1);
 }
 
-/* CTA Button */
 #button_of_Grid {
   color: black;
   font-size: 1.1rem;
@@ -88,14 +85,12 @@
   transform: scale(1.1);
 }
 
-/* Utility Fix */
 body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-/* Responsive Padding for Smaller Screens */
 @media (max-width: 768px) {
   .custom-card-title {
     font-size: 1.3rem;

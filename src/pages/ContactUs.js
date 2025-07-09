@@ -10,7 +10,7 @@ function ContactPage() {
 
   return (
     <>
-      {/* Hero Section */}
+
       <div className="contact-hero">
         <div className="contact-overlay">
           <div className="contact-content">
@@ -22,10 +22,9 @@ Let’s work together to build your high-performing team</p>
         </div>
       </div>
 
-      {/* Contact Section */}
-      {/* Contact Section */}
+   
 <div className="contact-section">
-  {/* Right Side - Forms */}
+
   <div className="right-side">
     <div className="form-tabs">
       <button 
@@ -34,18 +33,7 @@ Let’s work together to build your high-performing team</p>
       >
         CONTACT US
       </button>
-      {/* <button 
-        onClick={() => setActiveForm('talent')} 
-        className={activeForm === 'talent' ? 'active' : ''}
-      >
-        FIND TALENT
-      </button> */}
-      {/* <button 
-        onClick={() => setActiveForm('register')} 
-        className={activeForm === 'register' ? 'active' : ''}
-      >
-       APPLY NOW
-      </button> */}
+      
     </div>
 
     <div className="form-container">

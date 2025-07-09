@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./QualitySection.css"; // for custom styles
+import "./QualitySection.css"; 
 import { FaCheck } from "react-icons/fa";
 
 const QualitySection = () => {
@@ -8,7 +8,7 @@ const QualitySection = () => {
     <div className="container-fluid bg-dark text-white py-5">
       <div className="row align-items-center">
         
-        {/* Left Column */}
+        
         <div className="col-md-6 mb-4">
           <div className="highlight-box text-center mb-4">
             <h4>WE'RE COMMITTED TO DELIVER HIGH QUALITY RESULTS.</h4>
@@ -34,7 +34,7 @@ const QualitySection = () => {
           </div>
         </div>
 
-        {/* Right Column */}
+        
         <div className="col-md-6">
           <p className="mb-4">
             Our completely customized recruitment services are designed to address your company's specific needs, 

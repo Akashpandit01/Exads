@@ -1,4 +1,4 @@
-/* Wrapper with gradient background */
+
 
 
 .carousel-wrapper.single-card {
@@ -7,7 +7,7 @@
   text-align: center;
 
 }
-/* Title and Highlight */
+
 .carousel-title {
   font-size: 2.4rem;
   font-weight: bold;
@@ -19,7 +19,7 @@
   color: #1c1818;
 }
 
-/* Subtitle */
+
 .carousel-subtitle {
   font-size: 1.2rem;
   color: #333;
@@ -29,7 +29,7 @@
   margin-right: auto;
 }
 
-/* Card container */
+
 .recruitment-card {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +43,7 @@
   margin: 0 auto;
 }
 
-/* Left side text content */
+
 .recruitment-content {
   flex: 1 1 400px;
   padding: 20px;
@@ -54,7 +54,7 @@
   font-size: 2rem !important;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #000000 !important;  /* Force dark color */
+  color: #000000 !important; 
   text-align: center;
   white-space: nowrap;
 }
@@ -65,7 +65,6 @@
   line-height: 1.6;
 }
 
-/* Right side image */
 .recruitment-image {
   flex: 1 1 200px;
   padding: 20px;
@@ -80,8 +79,7 @@
   height: 290px;
 }
 
-/* Responsive layout */
-/* Responsive adjustments */
+
 @media (max-width: 991px) {
   .recruitment-card {
     flex-direction: column;
@@ -106,22 +104,22 @@
     height: auto;
   }
 }
-/* Responsive Heading for Recruitment & Staffing */
+
 @media (max-width: 991px) {
   .card-title {
-    font-size: 1.5rem; /* slightly smaller on tablets */
+    font-size: 1.5rem; 
   }
 }
 
 @media (max-width: 768px) {
   .card-title {
-    font-size: 1.3rem; /* smaller on medium mobile */
+    font-size: 1.3rem; 
   }
 }
 
 @media (max-width: 480px) {
   .card-title {
-    font-size: 0.1rem; /* smallest on small mobile */
+    font-size: 0.1rem; 
   }
 }
 

@@ -14,7 +14,7 @@ function RegisterForm() {
       <div className="form-group-row">
         <select>
           <option>+91</option>
-          {/* Add more country codes if needed */}
+          
         </select>
         <input type="text" placeholder="XXXX XXXX XX" />
       </div>

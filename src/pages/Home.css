@@ -1,5 +1,5 @@
   .carousel-item img {
-    height: 300px; /* or whatever height you prefer */
+    height: 300px; 
     object-fit: cover;
     object-position: center;
   }
@@ -144,7 +144,7 @@
   }
 
   .hero-background {
-    /* background-image: url('/images/mindcraftersbg.jpg'); */
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@
     max-width: fit-content;
     animation: typing 3s steps(30, end) forwards;
     border-right: none !important;
-    /* transition: all 4s ease-in; */
+
   }
 
   .typing-effect.delay {

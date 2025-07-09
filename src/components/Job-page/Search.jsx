@@ -33,7 +33,7 @@ const Search = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Searching for:", query);
-    // You can add search logic here
+    
   };
 
   return (
@@ -79,7 +79,6 @@ const Search = () => {
           REFER
         </button>
 
-        {/* REGISTER Link styled as button */}
         <Link
           to="/RegisterForm"
           className="Register_Button action-button d-flex justify-content-center align-items-center text-white text-decoration-none"

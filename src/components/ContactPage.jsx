@@ -8,20 +8,7 @@ function ContactPage() {
 
   return (
     <div className="contact-container">
-      {/* <div className="left-section">
-        <h2>Leave us a message</h2>
-        <p>Level 2, 35 Clarence Street,<br /> Sydney, NSW, 2000</p>
-        <p>company@email.com</p>
-        <p>+61 123 456 789</p>
-        <iframe
-          src="https://maps.google.com/maps?q=35%20Clarence%20Street,%20Sydney&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          width="100%"
-          height="250"
-          frameBorder="0"
-          allowFullScreen
-          title="map"
-        ></iframe>
-      </div> */}
+      
 
       <div className="right-section">
         <div className="button-group">

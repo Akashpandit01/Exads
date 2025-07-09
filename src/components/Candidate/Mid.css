@@ -1,4 +1,4 @@
-/* Heading Styling */
+
 #h1_of_Mid {
   color: white;
   font-size: 2rem;
@@ -12,7 +12,6 @@
   transform: scale(1.02);
 }
 
-/* Paragraph Styling */
 #p_of_Mid {
   color: rgb(42, 40, 40);
   font-size: 1.5rem;
@@ -22,7 +21,6 @@
   text-align: center;
 }
 
-/* Fade In Animation */
 @keyframes fadeInUp {
   to {
     opacity: 1;
@@ -30,12 +28,10 @@
   }
 }
 
-/* Container Wrapper */
 .cont {
   width: 100%;
 }
 
-/* Video Card Container */
 .video-card {
   position: relative;
   overflow: hidden;
@@ -44,7 +40,6 @@
   box-shadow: 0 8px 20px rgba(193, 183, 183, 0.5);
 }
 
-/* Video Element Styling */
 .video-card video {
   position: absolute;
   top: 50%;
@@ -57,7 +52,6 @@
   z-index: 1;
 }
 
-/* Overlay Text Container */
 .video-overlay {
   position: relative;
   z-index: 2;
@@ -70,7 +64,6 @@
   text-align: center;
 }
 
-/* Gradient Button Styling */
 .Button_of_Candidate {
   font-size: 1rem;
   padding: 0.6rem 1.5rem;
@@ -91,7 +84,6 @@
   background: linear-gradient(45deg, #ffa733, #ff5733);
 }
 
-/* Responsive Fixes */
 @media (max-width: 768px) {
   .video-card {
     height: 280px;

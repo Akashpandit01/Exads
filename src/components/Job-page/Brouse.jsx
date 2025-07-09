@@ -1,6 +1,6 @@
 import React from 'react';
 import './Brouse.css';
-import bgImage from '../../assets/job.jpg'; // Update with your actual image path
+import bgImage from '../../assets/job.jpg'; 
 
 const Brouse = () => {
   return (

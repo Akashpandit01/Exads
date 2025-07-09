@@ -75,7 +75,7 @@
   }
 
   img.img-fluid {
-    width: 100% !important;  /* Full width image */
+    width: 100% !important;  
     max-width: 100% !important;
     height: auto;
     margin-bottom: 1rem;

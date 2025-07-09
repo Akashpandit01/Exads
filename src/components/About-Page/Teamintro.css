@@ -40,7 +40,6 @@
   transform: scale(1.05);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .team-intro {
     flex-direction: column;

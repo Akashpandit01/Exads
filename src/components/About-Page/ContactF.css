@@ -1,4 +1,4 @@
-/* === Contact Section === */
+
 .contact-sectionf {
   display: flex;
   flex-wrap: wrap;
@@ -125,12 +125,6 @@
   transform: translateY(20px);
 }
 
-/* .animated-form .form-group:nth-child(1) { animation-delay: 0.2s; }
-.animated-form .form-group:nth-child(2) { animation-delay: 0.4s; }
-.animated-form .form-group:nth-child(3) { animation-delay: 0.6s; }
-.animated-form .form-group:nth-child(4) { animation-delay: 0.8s; }
-.animated-form .form-group:nth-child(5) { animation-delay: 1.0s; }
-.animated-form .form-group:nth-child(6) { animation-delay: 1.2s; } */
 
 @keyframes fadeUpForm {
   to {
@@ -155,7 +149,7 @@ textarea::placeholder {
   color: #aaa;
 }
 
-/* === CAPTCHA Section === */
+
 .captcha-box {
   display: flex;
   align-items: center;
@@ -181,7 +175,7 @@ textarea::placeholder {
   object-fit: contain;
 }
 
-/* === Submit Button === */
+
 form button {
   width: 100%;
   padding: 0.9rem 1.2rem;
@@ -213,7 +207,6 @@ form button:hover {
   margin-top: 20px;
 }
 
-/* Company Logo Styling */
 .company-logo {
   width: 160px;
   height: auto;
@@ -225,9 +218,8 @@ form button:hover {
   transform: scale(1.05);
 }
 
-/* LinkedIn Icon Styling */
 .linkedin-icon {
-  width: 15px; /* smaller for neatness */
+  width: 15px;
   height: 15px;
   transition: transform 0.3s ease, filter 0.3s ease;
   filter: grayscale(100%) brightness(1.2);
@@ -255,13 +247,13 @@ form button:hover {
 }
 
 .contact-left ul li:hover {
-  color: #e09b07; /* Change this to your preferred hover color */
-  transform: translateX(4px); /* Slight right movement */
+  color: #e09b07; 
+  transform: translateX(4px); 
   
 }
 
 .contact-footer {
-  background-color: #111; /* Match site theme */
+  background-color: #111; 
   color: white;
   padding: 20px 0;
   text-align: center;
